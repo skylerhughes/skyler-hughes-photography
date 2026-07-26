@@ -146,19 +146,28 @@ PAGE_SHELL = """<!DOCTYPE html>
 """
 
 
-def render_image(file, alt, w, h, depth):
+def render_image(file, alt, w, h, depth, loading="lazy", fetchpriority=None):
     prefix = "../" if depth else ""
     dims = ' width="{}" height="{}"'.format(w, h) if w and h else ""
-    return '<img src="{prefix}images/{file}" alt="{alt}"{dims} loading="lazy">'.format(
-        prefix=prefix, file=file, alt=html_escape(alt), dims=dims
+    priority = ' fetchpriority="{}"'.format(fetchpriority) if fetchpriority else ""
+    return '<img src="{prefix}images/{file}" alt="{alt}"{dims} loading="{loading}"{priority}>'.format(
+        prefix=prefix, file=file, alt=html_escape(alt), dims=dims, loading=loading, priority=priority
     )
 
 
 def render_grid(images, depth):
-    items = "\n    ".join(
-        render_image(img["file"], img["alt"], img.get("w"), img.get("h"), depth) for img in images
-    )
-    return '<div class="grid" id="photo-grid">\n    {}\n  </div>'.format(items)
+    items = []
+    for i, img in enumerate(images):
+        if i == 0:
+            loading, fetchpriority = "eager", "high"
+        elif i == 1:
+            loading, fetchpriority = "eager", None
+        else:
+            loading, fetchpriority = "lazy", None
+        items.append(
+            render_image(img["file"], img["alt"], img.get("w"), img.get("h"), depth, loading, fetchpriority)
+        )
+    return '<div class="grid" id="photo-grid">\n    {}\n  </div>'.format("\n    ".join(items))
 
 
 def render_about(data, depth):
@@ -242,6 +251,95 @@ def write_page(rel_dir, title, description, canonical_slug, og_image, page_json,
         f.write(html)
 
 
+def write_404_page(data):
+    # GitHub Pages serves this for any unmatched path, but the browser's address
+    # bar still shows that (nonexistent) path, so every asset/nav reference here
+    # must be a fully-qualified absolute URL rather than a relative one -- a
+    # relative "../css/style.css" would resolve against whatever depth the
+    # mistyped URL happened to be at, not against this file's own location.
+    nav_lis = []
+    for item in data["nav"]:
+        nav_lis.append(
+            '<li><a href="{}{}/" class="nav-link">{}</a></li>'.format(
+                SITE_BASE_URL, item["id"], html_escape(item["label"])
+            )
+        )
+    nav_html = """
+<a href="{home}" class="site-name">Skyler<br>Hughes</a>
+
+    <nav class="site-nav" aria-label="Primary">
+      <div class="nav-group">
+        <span class="nav-group-label">Image Galleries</span>
+        <ul>
+          {items}
+        </ul>
+      </div>
+      <ul class="nav-flat">
+        <li><a href="{about}" class="nav-link">About</a></li>
+      </ul>
+    </nav>""".format(
+        home=SITE_BASE_URL, items="\n          ".join(nav_lis), about=SITE_BASE_URL + "about/"
+    )
+
+    main_content = (
+        '<h1 class="page-title">Page not found</h1>\n'
+        '  <div class="home-intro"><p>The page you\'re looking for doesn\'t exist. '
+        'Head back to the <a href="{home}">homepage</a> or pick a gallery from the nav.</p></div>'
+    ).format(home=SITE_BASE_URL)
+
+    site = data["site"]
+    html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page Not Found | Skyler Hughes Photography</title>
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="{favicon}">
+<link rel="stylesheet" href="{css}">
+</head>
+<body>
+
+<button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+  <span></span><span></span><span></span>
+</button>
+
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-inner">
+    {nav}
+
+    <div class="sidebar-footer">
+      <a href="{instagram}" target="_blank" rel="noopener">Instagram</a>
+      <a href="mailto:{email}">{email}</a>
+    </div>
+  </div>
+</aside>
+
+<main id="main-content" class="main-content">
+  {main_content}
+</main>
+
+<script>
+  document.getElementById("nav-toggle").addEventListener("click", function () {{
+    var open = document.getElementById("sidebar").classList.toggle("open");
+    this.setAttribute("aria-expanded", String(open));
+  }});
+</script>
+</body>
+</html>
+""".format(
+        favicon=SITE_BASE_URL + "favicon.svg",
+        css=SITE_BASE_URL + "css/style.css",
+        nav=nav_html,
+        instagram=site["instagram"],
+        email=site["email"],
+        main_content=main_content,
+    )
+
+    with open(os.path.join(BASE, "404.html"), "w") as f:
+        f.write(html)
+
+
 def main():
     global SITE_DATA_SITE
     data = load_data()
@@ -266,6 +364,7 @@ def main():
         "", "Skyler Hughes Photography", home_desc, "", home_og_image,
         {"type": "home"}, nav_html, home_content, home_structured_data,
     )
+    sitemap_entries = [(SITE_BASE_URL, data["home"])]
 
     # Galleries
     for item in data["nav"]:
@@ -289,6 +388,7 @@ def main():
             gid, title, description, gid + "/", og_image,
             {"type": "gallery", "id": gid}, nav_html, main_content, gallery_structured_data,
         )
+        sitemap_entries.append((SITE_BASE_URL + gid + "/", images))
 
     # About
     about_title = "About | Skyler Hughes Photography"
@@ -301,13 +401,27 @@ def main():
         "about", about_title, about_desc, "about/", about_og_image,
         {"type": "about"}, nav_html, about_content, about_structured_data,
     )
+    sitemap_entries.append((SITE_BASE_URL + "about/", [{"file": data["about"]["photo"], "alt": "Skyler Hughes"}]))
 
-    # sitemap.xml + robots.txt
+    # sitemap.xml (with the image sitemap extension, since this is a photo site
+    # and captioned image entries are a direct lever for Google Images traffic)
+    # + robots.txt
     build_date = date.today().isoformat()
-    urls = [SITE_BASE_URL] + [SITE_BASE_URL + p["slug"] for p in pages if p["slug"]]
-    sitemap = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
-    for u in urls:
-        sitemap.append("  <url><loc>{}</loc><lastmod>{}</lastmod></url>".format(u, build_date))
+    sitemap = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
+        '        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">',
+    ]
+    for url, images in sitemap_entries:
+        sitemap.append("  <url>")
+        sitemap.append("    <loc>{}</loc>".format(url))
+        sitemap.append("    <lastmod>{}</lastmod>".format(build_date))
+        for img in images:
+            sitemap.append("    <image:image>")
+            sitemap.append("      <image:loc>{}images/{}</image:loc>".format(SITE_BASE_URL, img["file"]))
+            sitemap.append("      <image:caption>{}</image:caption>".format(html_escape(img["alt"])))
+            sitemap.append("    </image:image>")
+        sitemap.append("  </url>")
     sitemap.append("</urlset>")
     with open(os.path.join(BASE, "sitemap.xml"), "w") as f:
         f.write("\n".join(sitemap) + "\n")
@@ -315,7 +429,9 @@ def main():
     with open(os.path.join(BASE, "robots.txt"), "w") as f:
         f.write("User-agent: *\nAllow: /\n\nSitemap: {}sitemap.xml\n".format(SITE_BASE_URL))
 
-    print("Generated {} pages + sitemap.xml + robots.txt".format(len(pages)))
+    write_404_page(data)
+
+    print("Generated {} pages + 404.html + sitemap.xml + robots.txt".format(len(pages)))
 
 
 if __name__ == "__main__":

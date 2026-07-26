@@ -1,12 +1,636 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://skylerhughes.github.io/skyler-hughes-photography/</loc><lastmod>2026-07-25</lastmod></url>
-  <url><loc>https://skylerhughes.github.io/skyler-hughes-photography/central-oregon/</loc><lastmod>2026-07-25</lastmod></url>
-  <url><loc>https://skylerhughes.github.io/skyler-hughes-photography/pacific-northwest/</loc><lastmod>2026-07-25</lastmod></url>
-  <url><loc>https://skylerhughes.github.io/skyler-hughes-photography/southwest/</loc><lastmod>2026-07-25</lastmod></url>
-  <url><loc>https://skylerhughes.github.io/skyler-hughes-photography/winter-wonderland/</loc><lastmod>2026-07-25</lastmod></url>
-  <url><loc>https://skylerhughes.github.io/skyler-hughes-photography/western-australia/</loc><lastmod>2026-07-25</lastmod></url>
-  <url><loc>https://skylerhughes.github.io/skyler-hughes-photography/lifestyle/</loc><lastmod>2026-07-25</lastmod></url>
-  <url><loc>https://skylerhughes.github.io/skyler-hughes-photography/new-images/</loc><lastmod>2026-07-25</lastmod></url>
-  <url><loc>https://skylerhughes.github.io/skyler-hughes-photography/about/</loc><lastmod>2026-07-25</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://skylerhughes.github.io/skyler-hughes-photography/</loc>
+    <lastmod>2026-07-26</lastmod>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/south-sister-skyler-hughes.webp</image:loc>
+      <image:caption>South Sister volcano reflected in Sparks Lake at dusk</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/mt-bachelor-skyler-hughes.webp</image:loc>
+      <image:caption>Snow-capped Mount Bachelor rising above snow-laden pine trees</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/koosah-skyler-hughes-15677354.webp</image:loc>
+      <image:caption>Koosah Falls thundering into a turquoise pool with icy rocks in winter</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/antelope-skyler-hughes.webp</image:loc>
+      <image:caption>Antelope Canyon's sandstone walls glowing in soft purple light</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/south-sister-summit-sunrise-skyler-hughes.webp</image:loc>
+      <image:caption>Snow-patched Cascade peaks viewed from South Sister's summit at sunrise</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/oregon-river-skyler-hughes.webp</image:loc>
+      <image:caption>McKenzie River rushing past snow-dusted banks through an Oregon forest</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/slc-skyler-hughes.webp</image:loc>
+      <image:caption>Salt Creek Falls framed by snow-laden pines in the Oregon Cascades</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/tetons-skyler-hughes.webp</image:loc>
+      <image:caption>Grand Teton mountains reflected in still water under a starry night sky</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/rome-skyler-hughes-15677377.webp</image:loc>
+      <image:caption>Sleeping husky puppy curled up beside a lantern in a tent</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/proxy-skyler-hughes.webp</image:loc>
+      <image:caption>Proxy Falls cascading over moss-covered cliffs in the Oregon Cascades</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/abiqua-skyler-hughes.webp</image:loc>
+      <image:caption>Abiqua Falls dropping through columnar basalt cliffs framed by autumn leaves</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/bryce-skyler-hughes.webp</image:loc>
+      <image:caption>Sunlight bursting through a hoodoo arch at Bryce Canyon National Park</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/zion-skyler-hughes.webp</image:loc>
+      <image:caption>Zion Canyon towers glowing orange at sunset from Canyon Overlook</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/scott-lake-skyler-hughes.webp</image:loc>
+      <image:caption>Cascade peaks reflected in Scott Lake under a blazing sunset sky</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://skylerhughes.github.io/skyler-hughes-photography/central-oregon/</loc>
+    <lastmod>2026-07-26</lastmod>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/south-sister-summit-sunrise-skyler-hughes.webp</image:loc>
+      <image:caption>Snow-patched Cascade peaks viewed from South Sister's summit at sunrise</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/jefferson-skyler-hughes.webp</image:loc>
+      <image:caption>Mount Jefferson glowing red in alpenglow above a wildflower meadow</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/proxy-skyler-hughes.webp</image:loc>
+      <image:caption>Proxy Falls cascading over moss-covered cliffs in the Oregon Cascades</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/smith-rock-skyler-hughes.webp</image:loc>
+      <image:caption>Smith Rock's sunlit spire rising above a snowy canyon with the moon overhead</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/tfj-skyler-hughes.webp</image:loc>
+      <image:caption>Three Fingered Jack's jagged peak above a lupine wildflower meadow</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/bachelor-skyler-hughes.webp</image:loc>
+      <image:caption>Mount Bachelor rising above a lily pad-covered wetland in summer</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/fall-creek-falls-skyler-hughes-15678114.jpg</image:loc>
+      <image:caption>Fall Creek Falls cascading past snow-dusted boulders in a winter forest</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/three-sisters-skyler-hughes.webp</image:loc>
+      <image:caption>The Three Sisters glowing pink at dusk above a snow-covered forest</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/jefferson2-skyler-hughes.webp</image:loc>
+      <image:caption>Mount Jefferson framed through a rock arch at sunset</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/slc-skyler-hughes.webp</image:loc>
+      <image:caption>Salt Creek Falls framed by snow-laden pines in the Oregon Cascades</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/mt-bachelor-skyler-hughes.webp</image:loc>
+      <image:caption>Snow-capped Mount Bachelor rising above snow-laden pine trees</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/bt-skyler-hughes.webp</image:loc>
+      <image:caption>Broken Top's jagged peaks reflected in an alpine lake at sunset</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/south-sister-skyler-hughes.webp</image:loc>
+      <image:caption>South Sister volcano reflected in Sparks Lake at dusk</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/sparks-lake-skyler-hughes.webp</image:loc>
+      <image:caption>Sparks Lake ablaze with reflected color under a dramatic sunset sky</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/koosah-skyler-hughes-15677860.webp</image:loc>
+      <image:caption>Koosah Falls with golden sunlight streaming through the forest canopy</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/sparks-kayak-skyler-hughes.webp</image:loc>
+      <image:caption>Kayakers paddling Sparks Lake beneath fiery clouds and snow-capped peaks at sunset</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/mt-washington-fire-skyler-hughes.webp</image:loc>
+      <image:caption>Wildfire glow lighting up hillsides below Mount Washington at night</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/benham-skyler-hughes.webp</image:loc>
+      <image:caption>Benham Falls' turquoise water rushing through a snow-covered forest canyon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/three-sisters-aerial-skyler-hughes.webp</image:loc>
+      <image:caption>Aerial winter view of the Three Sisters and Broken Top with Mount Hood on the horizon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/central-oregon-forest-autumn-skyler-hughes.webp</image:loc>
+      <image:caption>Golden autumn ferns carpeting a burned pine forest floor in Central Oregon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/bt-winter-skyler-hughes.webp</image:loc>
+      <image:caption>Broken Top's snowy peaks catching alpenglow above a frozen creek</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://skylerhughes.github.io/skyler-hughes-photography/pacific-northwest/</loc>
+    <lastmod>2026-07-26</lastmod>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/proxy-skyler-hughes.webp</image:loc>
+      <image:caption>Proxy Falls cascading over moss-covered cliffs in the Oregon Cascades</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/jefferson-skyler-hughes.webp</image:loc>
+      <image:caption>Mount Jefferson glowing red in alpenglow above a wildflower meadow</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/silver-falls-state-park-skyler-hughes-15677859.webp</image:loc>
+      <image:caption>Twin cascades merging into a pool beneath golden autumn trees at Silver Falls</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/tfj-skyler-hughes.webp</image:loc>
+      <image:caption>Three Fingered Jack's jagged peak above a lupine wildflower meadow</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/fall-creek-falls-skyler-hughes-15678114.jpg</image:loc>
+      <image:caption>Fall Creek Falls cascading past snow-dusted boulders in a winter forest</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/three-sisters-skyler-hughes.webp</image:loc>
+      <image:caption>The Three Sisters glowing pink at dusk above a snow-covered forest</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/jefferson2-skyler-hughes.webp</image:loc>
+      <image:caption>Mount Jefferson framed through a rock arch at sunset</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/punchbowl--gorge-vert-skyler-hughes.webp</image:loc>
+      <image:caption>Punch Bowl Falls framed by moss-covered canyon walls in the Columbia Gorge</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/slc-skyler-hughes.webp</image:loc>
+      <image:caption>Salt Creek Falls framed by snow-laden pines in the Oregon Cascades</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/mt-bachelor-skyler-hughes.webp</image:loc>
+      <image:caption>Snow-capped Mount Bachelor rising above snow-laden pine trees</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/punchbowl-gorgo-skyler-hughes.webp</image:loc>
+      <image:caption>Punch Bowl Falls flowing into a lush green pool in the Columbia River Gorge</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/south-sister-skyler-hughes.webp</image:loc>
+      <image:caption>South Sister volcano reflected in Sparks Lake at dusk</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/smith-falls-skyler-hughes.webp</image:loc>
+      <image:caption>Smith Falls cascading through an autumn-colored forest gorge</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/koosah-skyler-hughes-15677860.webp</image:loc>
+      <image:caption>Koosah Falls with golden sunlight streaming through the forest canopy</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/mt-washington-fire-skyler-hughes.webp</image:loc>
+      <image:caption>Wildfire glow lighting up hillsides below Mount Washington at night</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/oneonta-gorge-skyler-hughes.webp</image:loc>
+      <image:caption>Oneonta Falls dropping through a narrow moss-lined gorge</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/palouse-skyler-hughes.webp</image:loc>
+      <image:caption>Palouse Falls plunging into a basalt canyon under dramatic clouds</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/benham-skyler-hughes.webp</image:loc>
+      <image:caption>Benham Falls' turquoise water rushing through a snow-covered forest canyon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/oregon-coast-falls-skyler-hughes-min.webp</image:loc>
+      <image:caption>Two-tier waterfall dropping through a mossy, fall-leaf-covered Oregon forest</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/sparks-lake-skyler-hughes.webp</image:loc>
+      <image:caption>Sparks Lake ablaze with reflected color under a dramatic sunset sky</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/sweet-creek-autumn-skyler-hughes.webp</image:loc>
+      <image:caption>Sweet Creek's wide cascade flowing through a misty autumn forest</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/alvord-desert-sunrise-skyler-hughes.webp</image:loc>
+      <image:caption>Cracked playa of the Alvord Desert beneath Steens Mountain at sunrise</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://skylerhughes.github.io/skyler-hughes-photography/southwest/</loc>
+    <lastmod>2026-07-26</lastmod>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/bryce-skyler-hughes.webp</image:loc>
+      <image:caption>Sunlight bursting through a hoodoo arch at Bryce Canyon National Park</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/antelope-skyler-hughes.webp</image:loc>
+      <image:caption>Antelope Canyon's sandstone walls glowing in soft purple light</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/zion-skyler-hughes.webp</image:loc>
+      <image:caption>Zion Canyon towers glowing orange at sunset from Canyon Overlook</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/monument-valley-2-skyler-hughes.webp</image:loc>
+      <image:caption>West Mitten Butte glowing orange in Monument Valley at sunset</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/antelope-canyon-4-skyler-hughes.webp</image:loc>
+      <image:caption>Light beam illuminating swirling sandstone walls in Antelope Canyon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/antelope-canyon-2-skyler-hughes.webp</image:loc>
+      <image:caption>Antelope Canyon's sandstone curves glowing pink and purple in reflected light</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/bryce-canyon-sunrise-skyler-hughes.webp</image:loc>
+      <image:caption>Rows of orange and white hoodoos glowing at sunrise in Bryce Canyon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/bryce-canyon2-sunrise-skyler-hughes.webp</image:loc>
+      <image:caption>Hoodoo spires and pine trees lit by golden sunrise light in Bryce Canyon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/narrows-skyler-hughes.webp</image:loc>
+      <image:caption>Hiker wading through the Virgin River in Zion Narrows canyon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/monument-valley-skyler-hughes.webp</image:loc>
+      <image:caption>The Mittens buttes glowing at sunset in Monument Valley</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/zion-creek-skyler-hughes.webp</image:loc>
+      <image:caption>Virgin River flowing through the glowing sandstone walls of Zion Narrows</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/zion-walls-skyler-hughes.webp</image:loc>
+      <image:caption>Zion Narrows canyon walls towering above the calm Virgin River</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://skylerhughes.github.io/skyler-hughes-photography/winter-wonderland/</loc>
+    <lastmod>2026-07-26</lastmod>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/smith-rock-winter-skyler-hughes.webp</image:loc>
+      <image:caption>Smith Rock's snow-dusted spires with a daytime moon in winter</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/selfie-skyler-hughes.webp</image:loc>
+      <image:caption>Snowshoer illuminated by headlamp beneath a frost-covered tree canopy at dusk</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/fall-creek-falls-skyler-hughes-15678114.jpg</image:loc>
+      <image:caption>Fall Creek Falls cascading past snow-dusted boulders in a winter forest</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/benham-skyler-hughes.webp</image:loc>
+      <image:caption>Benham Falls' turquoise water rushing through a snow-covered forest canyon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/three-sisters-skyler-hughes.webp</image:loc>
+      <image:caption>The Three Sisters glowing pink at dusk above a snow-covered forest</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/mt-bachelor-skyler-hughes.webp</image:loc>
+      <image:caption>Snow-capped Mount Bachelor rising above snow-laden pine trees</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/slc-skyler-hughes.webp</image:loc>
+      <image:caption>Salt Creek Falls framed by snow-laden pines in the Oregon Cascades</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/koosah-skyler-hughes-15677354.webp</image:loc>
+      <image:caption>Koosah Falls thundering into a turquoise pool with icy rocks in winter</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/mckenzie-river-winter-skyler-hughes.webp</image:loc>
+      <image:caption>McKenzie River's turquoise water rushing past snow-covered banks</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/fall-creek-falls-winter-2011.webp</image:loc>
+      <image:caption>Fall Creek Falls framed by deep snowdrifts in winter</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/bt-winter-skyler-hughes.webp</image:loc>
+      <image:caption>Broken Top's snowy peaks catching alpenglow above a frozen creek</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/crater-lake-winter-skyler-hughes.webp</image:loc>
+      <image:caption>Crater Lake's snow-covered rim casting a shadow over the water in winter</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://skylerhughes.github.io/skyler-hughes-photography/western-australia/</loc>
+    <lastmod>2026-07-26</lastmod>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/humpback-whale-breach-skyler-hughes.webp</image:loc>
+      <image:caption>Humpback whale breaching fully out of the ocean</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/rottnest-island-skyler-hughes.webp</image:loc>
+      <image:caption>Turquoise water and white sand beach at Rottnest Island, Western Australia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/eagle-bay-meelup-wa-drone2.webp</image:loc>
+      <image:caption>Aerial view of granite boulders along the Eagle Bay coastline in Western Australia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/perth-boatshed-skyler-hughes.webp</image:loc>
+      <image:caption>Perth's Crawley Edge Boatshed lit up beneath a lightning storm at night</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/cervantes-skyler-hughes.webp</image:loc>
+      <image:caption>Rippled sand dune patterns near Cervantes, Western Australia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/shellybeach-skyler-hughes.webp</image:loc>
+      <image:caption>Rocky point and pine trees at Shelly Beach during sunset</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/bunker-bay-drone.webp</image:loc>
+      <image:caption>Aerial view of turquoise waves rolling into Bunker Bay's reef-lined shore</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/eagle-bay-meelup-wa-drone5.webp</image:loc>
+      <image:caption>Aerial view of a granite headland and coastal trail near Eagle Bay</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/bunker-bay-drone2.webp</image:loc>
+      <image:caption>Aerial view of seaweed-streaked waves washing onto Bunker Bay's sandy shore</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/wave-break-skyler-hughes.webp</image:loc>
+      <image:caption>Aerial view of a wave breaking over a rocky reef ledge in Western Australia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/shipwreck-skyler-hughes.webp</image:loc>
+      <image:caption>Aerial view of a rusted shipwreck resting in shallow turquoise reef water</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/bunker-bay-drone3.webp</image:loc>
+      <image:caption>Aerial view of turquoise waves and seaweed patches rolling onto a sandy beach</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/bunker-bay-drone4.webp</image:loc>
+      <image:caption>Aerial view of waves meeting a tree-lined sandy beach at Bunker Bay</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/sugarloaf-skyler-hughes-1.webp</image:loc>
+      <image:caption>Sugarloaf Rock silhouetted against pink sunset clouds in Western Australia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/western-australia-bush-skyler-hughes.webp</image:loc>
+      <image:caption>Sunlight bursting through eucalyptus trees above grass trees in the Western Australia bush</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://skylerhughes.github.io/skyler-hughes-photography/lifestyle/</loc>
+    <lastmod>2026-07-26</lastmod>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/cory-fagin-bw-close-up-smith-rock-skyler-hughes.webp</image:loc>
+      <image:caption>Black-and-white close-up of a rock climber reaching for a hold at Smith Rock</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/alvord-desert-skyler-hughes.webp</image:loc>
+      <image:caption>Glowing tent pitched on the Alvord Desert playa under a starry night sky</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/surf-skyler-hughes.webp</image:loc>
+      <image:caption>Surfboard shaper sanding a board by hand in his workshop</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/bend-river-wave-skyler-hughes.webp</image:loc>
+      <image:caption>River surfer riding a lit-up wave at night in Bend, Oregon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/selfie-skyler-hughes.webp</image:loc>
+      <image:caption>Snowshoer illuminated by headlamp beneath a frost-covered tree canopy at dusk</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/narrows-skyler-hughes.webp</image:loc>
+      <image:caption>Hiker wading through the Virgin River in Zion Narrows canyon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/romy-dog-tent-skyler-hughes.webp</image:loc>
+      <image:caption>White dog peeking out of a tent with mountain peaks in the background</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/proxy-dog-alex-by-skyler-hughes.webp</image:loc>
+      <image:caption>Hiker and dog pausing on a log below Proxy Falls' mossy cascades</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/tumalo-skin-skyler-hughes.webp</image:loc>
+      <image:caption>Snowshoer's headlamp glowing beneath Mount Bachelor at dusk</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/dogs-snow-by-skyler-hughes.webp</image:loc>
+      <image:caption>Three dogs of different colors standing together in falling snow</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/tobi-south-sister.webp</image:loc>
+      <image:caption>Hiker admiring snow-patched Cascade peaks at dusk from South Sister</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/sparks-kayak-skyler-hughes.webp</image:loc>
+      <image:caption>Kayakers paddling Sparks Lake beneath fiery clouds and snow-capped peaks at sunset</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/rome-skyler-hughes-15677379.webp</image:loc>
+      <image:caption>Sleeping husky puppy curled up beside a lantern in a tent</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/bobby-smith-rock-gorge-skyler-hughes.webp</image:loc>
+      <image:caption>Climber scaling a rock face in the Smith Rock gorge</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://skylerhughes.github.io/skyler-hughes-photography/new-images/</loc>
+    <lastmod>2026-07-26</lastmod>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/bt-skyler-hughes.webp</image:loc>
+      <image:caption>Broken Top's jagged peaks reflected in an alpine lake at sunset</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/jefferson-skyler-hughes.webp</image:loc>
+      <image:caption>Mount Jefferson glowing red in alpenglow above a wildflower meadow</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/proxy-skyler-hughes.webp</image:loc>
+      <image:caption>Proxy Falls cascading over moss-covered cliffs in the Oregon Cascades</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/smith-rock-skyler-hughes.webp</image:loc>
+      <image:caption>Smith Rock's sunlit spire rising above a snowy canyon with the moon overhead</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/silver-falls-state-park-skyler-hughes-15677859.webp</image:loc>
+      <image:caption>Twin cascades merging into a pool beneath golden autumn trees at Silver Falls</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/tfj-skyler-hughes.webp</image:loc>
+      <image:caption>Three Fingered Jack's jagged peak above a lupine wildflower meadow</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/bachelor-skyler-hughes.webp</image:loc>
+      <image:caption>Mount Bachelor rising above a lily pad-covered wetland in summer</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/fall-creek-falls-skyler-hughes-15678114.jpg</image:loc>
+      <image:caption>Fall Creek Falls cascading past snow-dusted boulders in a winter forest</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/three-sisters-skyler-hughes.webp</image:loc>
+      <image:caption>The Three Sisters glowing pink at dusk above a snow-covered forest</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/jefferson2-skyler-hughes.webp</image:loc>
+      <image:caption>Mount Jefferson framed through a rock arch at sunset</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/lava-lake-fishing.webp</image:loc>
+      <image:caption>Two anglers fishing from a boat on a misty lake at sunrise</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/slc-skyler-hughes.webp</image:loc>
+      <image:caption>Salt Creek Falls framed by snow-laden pines in the Oregon Cascades</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/south-sister-summit-sunrise-skyler-hughes.webp</image:loc>
+      <image:caption>Snow-patched Cascade peaks viewed from South Sister's summit at sunrise</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/mt-bachelor-skyler-hughes.webp</image:loc>
+      <image:caption>Snow-capped Mount Bachelor rising above snow-laden pine trees</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/south-sister-skyler-hughes.webp</image:loc>
+      <image:caption>South Sister volcano reflected in Sparks Lake at dusk</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/sparks-lake-skyler-hughes.webp</image:loc>
+      <image:caption>Sparks Lake ablaze with reflected color under a dramatic sunset sky</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/smith-falls-skyler-hughes.webp</image:loc>
+      <image:caption>Smith Falls cascading through an autumn-colored forest gorge</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/koosah-skyler-hughes-15677860.webp</image:loc>
+      <image:caption>Koosah Falls with golden sunlight streaming through the forest canopy</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/sparks-kayak-skyler-hughes.webp</image:loc>
+      <image:caption>Kayakers paddling Sparks Lake beneath fiery clouds and snow-capped peaks at sunset</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/mt-washington-fire-skyler-hughes.webp</image:loc>
+      <image:caption>Wildfire glow lighting up hillsides below Mount Washington at night</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/palouse-skyler-hughes.webp</image:loc>
+      <image:caption>Palouse Falls plunging into a basalt canyon under dramatic clouds</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/benham-skyler-hughes.webp</image:loc>
+      <image:caption>Benham Falls' turquoise water rushing through a snow-covered forest canyon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/three-sisters-aerial-skyler-hughes.webp</image:loc>
+      <image:caption>Aerial winter view of the Three Sisters and Broken Top with Mount Hood on the horizon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/oregon-coast-falls-skyler-hughes-min.webp</image:loc>
+      <image:caption>Two-tier waterfall dropping through a mossy, fall-leaf-covered Oregon forest</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/Snow-creek-falls-horizontal-Nov-2022-sharpened.webp</image:loc>
+      <image:caption>Snow Creek Falls flowing past ice-crusted rocks in a snowy forest</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/abstract-skyler-hughes.webp</image:loc>
+      <image:caption>Abstract aerial view of turquoise water and dark reef patterns</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/butte-creek-falls-skyler-hughes.webp</image:loc>
+      <image:caption>Butte Creek Falls cascading through a canopy of autumn color</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/canadian-mountain-from-hut-skyler-hughes-web.webp</image:loc>
+      <image:caption>Jagged Canadian Rockies peak reflected in a calm alpine lake at dusk</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/canadian-rockies-2022-range-skyler-hughes-web.webp</image:loc>
+      <image:caption>Canadian Rockies range glowing pink at sunset above a mirror lake</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/canadian-rockies-skyler-hughes-2022.webp</image:loc>
+      <image:caption>Sunset light on Canadian Rockies peaks reflected in a clear alpine lake</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/fall-creek-falls-skyler-hughes-16093574.webp</image:loc>
+      <image:caption>Fall Creek Falls tumbling in tiers through a lush green summer forest</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/jackson-kimball-state-park-skyler-hughes.webp</image:loc>
+      <image:caption>Aerial view of a turquoise spring-fed pool at Jackson Kimball State Park</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/panther-creek-2-skyler-hughes.webp</image:loc>
+      <image:caption>Panther Creek Falls fanning out over a moss-covered rock face</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/silver-falls-state-park-skyler-hughes-16093574.webp</image:loc>
+      <image:caption>A two-tier waterfall dropping through golden autumn canopy at Silver Falls</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/snow-creek-details-Nov-2022-sharpened.webp</image:loc>
+      <image:caption>Snow-capped boulders in a rushing winter stream</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/spotted-owl-july-18-2.webp</image:loc>
+      <image:caption>Spotted owl perched on a moss-covered branch in a forest</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/trees-canadian-rockies-skyler-hughes-web.webp</image:loc>
+      <image:caption>Golden light on pine trees reflected in a misty Canadian Rockies lake</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/upper-north-falls-silver-falls-state-park-skyler-hughes.webp</image:loc>
+      <image:caption>Upper North Falls plunging over a cliff into a rocky pool at Silver Falls State Park</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://skylerhughes.github.io/skyler-hughes-photography/about/</loc>
+    <lastmod>2026-07-26</lastmod>
+    <image:image>
+      <image:loc>https://skylerhughes.github.io/skyler-hughes-photography/images/skyler-hughes-portrait.jpg</image:loc>
+      <image:caption>Skyler Hughes</image:caption>
+    </image:image>
+  </url>
 </urlset>

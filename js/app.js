@@ -47,7 +47,14 @@
         const img = document.createElement("img");
         img.src = assetPath(entry.item.file, true);
         img.alt = entry.item.alt;
-        img.loading = "lazy";
+        if (entry.index === 0) {
+          img.loading = "eager";
+          img.fetchPriority = "high";
+        } else if (entry.index === 1) {
+          img.loading = "eager";
+        } else {
+          img.loading = "lazy";
+        }
         cell.appendChild(img);
         cell.addEventListener("click", function () {
           openLightbox(images, entry.index);
