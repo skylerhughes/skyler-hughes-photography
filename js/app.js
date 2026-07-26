@@ -2,7 +2,6 @@
   "use strict";
 
   const main = document.getElementById("main-content");
-  const galleryNavList = document.getElementById("gallery-nav-list");
   const sidebar = document.getElementById("sidebar");
   const navToggle = document.getElementById("nav-toggle");
 
@@ -11,29 +10,9 @@
   let currentImages = [];
   let currentIndex = 0;
 
-  function imgSrc(file) {
-    return "images/" + file;
-  }
-
-  // Build sidebar gallery links from data
-  SITE_DATA.nav.forEach(function (item) {
-    const li = document.createElement("li");
-    const a = document.createElement("a");
-    a.href = "#" + item.id;
-    a.textContent = item.label;
-    a.dataset.nav = item.id;
-    li.appendChild(a);
-    galleryNavList.appendChild(li);
-  });
-
-  document.getElementById("instagram-link").href = SITE_DATA.site.instagram;
-  document.getElementById("email-link").href = "mailto:" + SITE_DATA.site.email;
-  document.getElementById("email-link").textContent = SITE_DATA.site.email;
-
-  function setActiveNav(id) {
-    document.querySelectorAll(".site-nav a").forEach(function (a) {
-      a.classList.toggle("active", a.dataset.nav === id);
-    });
+  function assetPath(file, isImage) {
+    const prefix = window.PAGE && window.PAGE.depth ? "../" : "";
+    return prefix + (isImage ? "images/" : "") + file;
   }
 
   const GAP = 6;
@@ -66,7 +45,7 @@
           cell.style.width = (entry.aspect * rowHeight) + "px";
         }
         const img = document.createElement("img");
-        img.src = imgSrc(entry.item.file);
+        img.src = assetPath(entry.item.file, true);
         img.alt = entry.item.alt;
         img.loading = "lazy";
         cell.appendChild(img);
@@ -95,97 +74,46 @@
   }
 
   function renderGrid(images) {
-    const grid = document.createElement("div");
-    grid.className = "grid";
-    // Deferred layout: container needs to be attached to measure width.
+    let grid = document.getElementById("photo-grid");
+    if (grid) {
+      grid.innerHTML = "";
+    } else {
+      grid = document.createElement("div");
+      grid.className = "grid";
+      grid.id = "photo-grid";
+    }
     requestAnimationFrame(function () {
       layoutRows(grid, images, targetRowHeight());
     });
 
     let resizeTimer = null;
-    const onResize = function () {
+    window.addEventListener("resize", function () {
       clearTimeout(resizeTimer);
       resizeTimer = setTimeout(function () {
-        if (!grid.isConnected) {
-          window.removeEventListener("resize", onResize);
-          return;
-        }
         grid.innerHTML = "";
         layoutRows(grid, images, targetRowHeight());
       }, 150);
-    };
-    window.addEventListener("resize", onResize);
+    });
 
     return grid;
   }
 
   function renderHome() {
-    main.innerHTML = "";
     main.appendChild(renderGrid(SITE_DATA.home));
-    setActiveNav(null);
   }
 
   function renderGallery(id) {
     const images = SITE_DATA.galleries[id];
-    const label = (SITE_DATA.nav.find(function (n) { return n.id === id; }) || {}).label || id;
-    main.innerHTML = "";
-    const title = document.createElement("h2");
-    title.className = "page-title";
-    title.textContent = label;
-    main.appendChild(title);
     main.appendChild(renderGrid(images));
-    setActiveNav(id);
   }
 
-  function renderAbout() {
-    main.innerHTML = "";
-    const wrap = document.createElement("div");
-    wrap.className = "about-page";
-
-    const photo = document.createElement("img");
-    photo.className = "about-photo";
-    photo.src = imgSrc(SITE_DATA.about.photo);
-    photo.alt = "Skyler Hughes";
-    wrap.appendChild(photo);
-
-    const h1 = document.createElement("h1");
-    h1.textContent = "About";
-    wrap.appendChild(h1);
-
-    SITE_DATA.about.paragraphs.forEach(function (text) {
-      const p = document.createElement("p");
-      const parts = text.split(SITE_DATA.site.email);
-      if (parts.length === 2) {
-        p.appendChild(document.createTextNode(parts[0]));
-        const a = document.createElement("a");
-        a.href = "mailto:" + SITE_DATA.site.email;
-        a.textContent = SITE_DATA.site.email;
-        p.appendChild(a);
-        p.appendChild(document.createTextNode(parts[1]));
-      } else {
-        p.textContent = text;
-      }
-      wrap.appendChild(p);
-    });
-
-    main.appendChild(wrap);
-    setActiveNav("about");
-  }
-
-  function route() {
-    const hash = window.location.hash.replace(/^#/, "") || "home";
-    closeLightbox();
-    if (hash === "home") {
+  function renderPage() {
+    const page = window.PAGE || { type: "home" };
+    if (page.type === "home") {
       renderHome();
-    } else if (hash === "about") {
-      renderAbout();
-    } else if (SITE_DATA.galleries[hash]) {
-      renderGallery(hash);
-    } else {
-      renderHome();
+    } else if (page.type === "gallery" && SITE_DATA.galleries[page.id]) {
+      renderGallery(page.id);
     }
-    window.scrollTo(0, 0);
-    closeSidebarOnMobile();
   }
 
   // ---------- Lightbox ----------
@@ -199,7 +127,7 @@
 
   function showCurrentImage() {
     const item = currentImages[currentIndex];
-    lightboxImg.src = imgSrc(item.file);
+    lightboxImg.src = assetPath(item.file, true);
     lightboxImg.alt = item.alt;
   }
 
@@ -230,17 +158,10 @@
 
   // ---------- Mobile nav ----------
 
-  function closeSidebarOnMobile() {
-    sidebar.classList.remove("open");
-    navToggle.setAttribute("aria-expanded", "false");
-  }
-
   navToggle.addEventListener("click", function () {
     const open = sidebar.classList.toggle("open");
     navToggle.setAttribute("aria-expanded", String(open));
   });
 
-  window.addEventListener("hashchange", route);
-  document.addEventListener("DOMContentLoaded", route);
-  route();
+  renderPage();
 })();

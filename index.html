@@ -5,6 +5,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Skyler Hughes Photography</title>
 <meta name="description" content="Landscape and outdoor photography by Skyler Hughes. Designer and photographer from the Pacific Northwest.">
+<link rel="canonical" href="https://skylerhughes.github.io/skyler-hughes-photography/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Skyler Hughes Photography">
+<meta property="og:description" content="Landscape and outdoor photography by Skyler Hughes. Designer and photographer from the Pacific Northwest.">
+<meta property="og:url" content="https://skylerhughes.github.io/skyler-hughes-photography/">
+<meta property="og:image" content="https://skylerhughes.github.io/skyler-hughes-photography/images/south-sister-skyler-hughes.webp">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Skyler Hughes Photography">
+<meta name="twitter:description" content="Landscape and outdoor photography by Skyler Hughes. Designer and photographer from the Pacific Northwest.">
+<meta name="twitter:image" content="https://skylerhughes.github.io/skyler-hughes-photography/images/south-sister-skyler-hughes.webp">
+
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -15,27 +28,53 @@
 
 <aside class="sidebar" id="sidebar">
   <div class="sidebar-inner">
-    <a href="#home" class="site-name">Skyler<br>Hughes</a>
+    
+<a href="./" class="site-name">Skyler<br>Hughes</a>
 
     <nav class="site-nav" aria-label="Primary">
       <div class="nav-group">
         <span class="nav-group-label">Image Galleries</span>
-        <ul id="gallery-nav-list"></ul>
+        <ul>
+          <li><a href="central-oregon/" class="nav-link">Central Oregon</a></li>
+          <li><a href="pacific-northwest/" class="nav-link">Pacific Northwest</a></li>
+          <li><a href="southwest/" class="nav-link">Southwest</a></li>
+          <li><a href="winter-wonderland/" class="nav-link">Winter Wonderland</a></li>
+          <li><a href="western-australia/" class="nav-link">Western Australia</a></li>
+          <li><a href="lifestyle/" class="nav-link">Lifestyle</a></li>
+          <li><a href="new-images/" class="nav-link">New Images</a></li>
+        </ul>
       </div>
       <ul class="nav-flat">
-        <li><a href="#about" data-nav="about">About</a></li>
+        <li><a href="about/" class="nav-link">About</a></li>
       </ul>
     </nav>
 
     <div class="sidebar-footer">
-      <a id="instagram-link" href="#" target="_blank" rel="noopener">Instagram</a>
-      <a id="email-link" href="#">hello@skylerhughes.com</a>
+      <a href="https://www.instagram.com/skylerhughesphoto" target="_blank" rel="noopener">Instagram</a>
+      <a href="mailto:hello@skylerhughes.com">hello@skylerhughes.com</a>
     </div>
   </div>
 </aside>
 
 <main id="main-content" class="main-content">
-  <!-- Content injected by js/app.js -->
+  <h1 class="sr-only">Skyler Hughes Photography</h1>
+  <div class="home-intro"><p>Landscape and outdoor photography by Skyler Hughes. Designer and photographer from the Pacific Northwest.</p></div>
+  <div class="grid" id="photo-grid">
+    <img src="images/south-sister-skyler-hughes.webp" alt="South Sister volcano reflected in Sparks Lake at dusk" width="1600" height="1067" loading="lazy">
+    <img src="images/mt-bachelor-skyler-hughes.webp" alt="Snow-capped Mount Bachelor rising above snow-laden pine trees" width="1055" height="1600" loading="lazy">
+    <img src="images/koosah-skyler-hughes-15677354.webp" alt="Koosah Falls thundering into a turquoise pool with icy rocks in winter" width="1600" height="1067" loading="lazy">
+    <img src="images/antelope-skyler-hughes.webp" alt="Antelope Canyon's sandstone walls glowing in soft purple light" width="1600" height="1067" loading="lazy">
+    <img src="images/south-sister-summit-sunrise-skyler-hughes.webp" alt="Snow-patched Cascade peaks viewed from South Sister's summit at sunrise" width="1200" height="719" loading="lazy">
+    <img src="images/oregon-river-skyler-hughes.webp" alt="McKenzie River rushing past snow-dusted banks through an Oregon forest" width="1600" height="1067" loading="lazy">
+    <img src="images/slc-skyler-hughes.webp" alt="Salt Creek Falls framed by snow-laden pines in the Oregon Cascades" width="1600" height="1034" loading="lazy">
+    <img src="images/tetons-skyler-hughes.webp" alt="Grand Teton mountains reflected in still water under a starry night sky" width="887" height="1200" loading="lazy">
+    <img src="images/rome-skyler-hughes-15677377.webp" alt="Sleeping husky puppy curled up beside a lantern in a tent" width="1600" height="1184" loading="lazy">
+    <img src="images/proxy-skyler-hughes.webp" alt="Proxy Falls cascading over moss-covered cliffs in the Oregon Cascades" width="1600" height="1067" loading="lazy">
+    <img src="images/abiqua-skyler-hughes.webp" alt="Abiqua Falls dropping through columnar basalt cliffs framed by autumn leaves" width="1067" height="1600" loading="lazy">
+    <img src="images/bryce-skyler-hughes.webp" alt="Sunlight bursting through a hoodoo arch at Bryce Canyon National Park" width="1600" height="1067" loading="lazy">
+    <img src="images/zion-skyler-hughes.webp" alt="Zion Canyon towers glowing orange at sunset from Canyon Overlook" width="1600" height="1057" loading="lazy">
+    <img src="images/scott-lake-skyler-hughes.webp" alt="Cascade peaks reflected in Scott Lake under a blazing sunset sky" width="1600" height="1119" loading="lazy">
+  </div>
 </main>
 
 <div id="lightbox" class="lightbox" hidden>
@@ -45,6 +84,7 @@
   <button class="lightbox-next" aria-label="Next">&#8250;</button>
 </div>
 
+<script>window.PAGE = {"type": "home", "depth": 0};</script>
 <script src="js/data.js"></script>
 <script src="js/app.js"></script>
 </body>
