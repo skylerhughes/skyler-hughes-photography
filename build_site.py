@@ -6,6 +6,7 @@ changed bio, etc.) to keep every page's nav/meta in sync.
 
 import json
 import os
+from datetime import date
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 SITE_BASE_URL = "https://skylerhughes.github.io/skyler-hughes-photography/"
@@ -71,7 +72,7 @@ def render_nav(data, pages, active_id, depth):
     )
 
 
-def render_head(title, description, canonical_slug, og_image_path, depth):
+def render_head(title, description, canonical_slug, og_image_path, depth, structured_data=""):
     asset_prefix = "../" if depth else ""
     canonical_url = SITE_BASE_URL + canonical_slug
     og_image_url = SITE_BASE_URL + og_image_path
@@ -80,6 +81,7 @@ def render_head(title, description, canonical_slug, og_image_path, depth):
 <title>{title}</title>
 <meta name="description" content="{description}">
 <link rel="canonical" href="{canonical_url}">
+<link rel="icon" type="image/svg+xml" href="{asset_prefix}favicon.svg">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="{title}">
@@ -92,13 +94,15 @@ def render_head(title, description, canonical_slug, og_image_path, depth):
 <meta name="twitter:description" content="{description}">
 <meta name="twitter:image" content="{og_image_url}">
 
-<link rel="stylesheet" href="{asset_prefix}css/style.css">""".format(
+<link rel="stylesheet" href="{asset_prefix}css/style.css">
+{structured_data}""".format(
         title=html_escape(title),
         description=html_escape(description),
         canonical_url=canonical_url,
         og_image_url=og_image_url,
         asset_prefix=asset_prefix,
-    )
+        structured_data=structured_data,
+    ).rstrip()
 
 
 PAGE_SHELL = """<!DOCTYPE html>
@@ -183,10 +187,45 @@ def render_about(data, depth):
     )
 
 
-def write_page(rel_dir, title, description, canonical_slug, og_image, page_json, nav_html, main_content=""):
+def render_jsonld(obj):
+    return '<script type="application/ld+json">{}</script>'.format(json.dumps(obj))
+
+
+def person_jsonld(data):
+    site = data["site"]
+    return {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Skyler Hughes",
+        "url": SITE_BASE_URL,
+        "image": SITE_BASE_URL + "images/" + data["about"]["photo"],
+        "email": site["email"],
+        "jobTitle": "Photographer",
+        "sameAs": [site["instagram"]],
+    }
+
+
+def image_gallery_jsonld(name, url, images):
+    return {
+        "@context": "https://schema.org",
+        "@type": "ImageGallery",
+        "name": name,
+        "url": url,
+        "image": [
+            {
+                "@type": "ImageObject",
+                "contentUrl": SITE_BASE_URL + "images/" + img["file"],
+                "name": img["alt"],
+            }
+            for img in images
+        ],
+    }
+
+
+def write_page(rel_dir, title, description, canonical_slug, og_image, page_json, nav_html, main_content="", structured_data=""):
     depth = 1 if rel_dir else 0
     page_json = dict(page_json, depth=depth)
-    head = render_head(title, description, canonical_slug, og_image, depth)
+    head = render_head(title, description, canonical_slug, og_image, depth, structured_data)
     asset_prefix = "../" if depth else ""
     html = PAGE_SHELL.format(
         head=head,
@@ -219,9 +258,13 @@ def main():
         '  <div class="home-intro"><p>{}</p></div>\n'
         '  {}'
     ).format(html_escape(tagline), render_grid(data["home"], depth=0))
+    home_structured_data = "\n".join([
+        render_jsonld(person_jsonld(data)),
+        render_jsonld(image_gallery_jsonld("Skyler Hughes Photography", SITE_BASE_URL, data["home"])),
+    ])
     write_page(
         "", "Skyler Hughes Photography", home_desc, "", home_og_image,
-        {"type": "home"}, nav_html, home_content,
+        {"type": "home"}, nav_html, home_content, home_structured_data,
     )
 
     # Galleries
@@ -237,9 +280,14 @@ def main():
         main_content = '<h1 class="page-title">{}</h1>\n  {}'.format(
             html_escape(label), render_grid(images, depth=1)
         )
+        gallery_structured_data = render_jsonld(
+            image_gallery_jsonld(
+                "{} Photography | Skyler Hughes".format(label), SITE_BASE_URL + gid + "/", images
+            )
+        )
         write_page(
             gid, title, description, gid + "/", og_image,
-            {"type": "gallery", "id": gid}, nav_html, main_content,
+            {"type": "gallery", "id": gid}, nav_html, main_content, gallery_structured_data,
         )
 
     # About
@@ -248,16 +296,18 @@ def main():
     about_og_image = "images/" + data["about"]["photo"]
     nav_html = render_nav(data, pages, "about", depth=1)
     about_content = render_about(data, depth=1)
+    about_structured_data = render_jsonld(person_jsonld(data))
     write_page(
         "about", about_title, about_desc, "about/", about_og_image,
-        {"type": "about"}, nav_html, about_content,
+        {"type": "about"}, nav_html, about_content, about_structured_data,
     )
 
     # sitemap.xml + robots.txt
+    build_date = date.today().isoformat()
     urls = [SITE_BASE_URL] + [SITE_BASE_URL + p["slug"] for p in pages if p["slug"]]
     sitemap = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for u in urls:
-        sitemap.append("  <url><loc>{}</loc></url>".format(u))
+        sitemap.append("  <url><loc>{}</loc><lastmod>{}</lastmod></url>".format(u, build_date))
     sitemap.append("</urlset>")
     with open(os.path.join(BASE, "sitemap.xml"), "w") as f:
         f.write("\n".join(sitemap) + "\n")
