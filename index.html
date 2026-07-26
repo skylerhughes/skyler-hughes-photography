@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Skyler Hughes Photography</title>
+<meta name="description" content="Landscape and outdoor photography by Skyler Hughes. Designer and photographer from the Pacific Northwest.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+  <span></span><span></span><span></span>
+</button>
+
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-inner">
+    <a href="#home" class="site-name">Skyler<br>Hughes</a>
+
+    <nav class="site-nav" aria-label="Primary">
+      <div class="nav-group">
+        <span class="nav-group-label">Image Galleries</span>
+        <ul id="gallery-nav-list"></ul>
+      </div>
+      <ul class="nav-flat">
+        <li><a href="#about" data-nav="about">About</a></li>
+      </ul>
+    </nav>
+
+    <div class="sidebar-footer">
+      <a id="instagram-link" href="#" target="_blank" rel="noopener">Instagram</a>
+      <a id="email-link" href="#">hello@skylerhughes.com</a>
+    </div>
+  </div>
+</aside>
+
+<main id="main-content" class="main-content">
+  <!-- Content injected by js/app.js -->
+</main>
+
+<div id="lightbox" class="lightbox" hidden>
+  <button class="lightbox-close" aria-label="Close">&times;</button>
+  <button class="lightbox-prev" aria-label="Previous">&#8249;</button>
+  <img class="lightbox-img" src="" alt="">
+  <button class="lightbox-next" aria-label="Next">&#8250;</button>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
