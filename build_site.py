@@ -9,7 +9,7 @@ import os
 from datetime import date
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-SITE_BASE_URL = "https://skylerhughes.github.io/skyler-hughes-photography/"
+SITE_BASE_URL = "https://skylerhughesphotography.com/"
 
 
 def load_data():
