@@ -35,8 +35,18 @@ def html_escape(s):
     )
 
 
+def format_date(iso_date):
+    return date.fromisoformat(iso_date).strftime("%B {}, %Y").format(
+        date.fromisoformat(iso_date).day
+    )
+
+
+def sorted_posts(data):
+    return sorted(data.get("blog", []), key=lambda p: p["date"], reverse=True)
+
+
 def render_nav(data, pages, active_id, depth):
-    prefix = "../" if depth else ""
+    prefix = "../" * depth
     gallery_ids = {item["id"] for item in data["nav"]}
 
     gallery_lis = []
@@ -49,6 +59,7 @@ def render_nav(data, pages, active_id, depth):
             )
         )
 
+    blog_active = " active" if active_id == "blog" else ""
     about_active = " active" if active_id == "about" else ""
 
     return """
@@ -62,18 +73,21 @@ def render_nav(data, pages, active_id, depth):
         </ul>
       </div>
       <ul class="nav-flat">
+        <li><a href="{blog_href}" class="nav-link{blog_active}">Blog</a></li>
         <li><a href="{about_href}" class="nav-link{about_active}">About</a></li>
       </ul>
     </nav>""".format(
         home_href=prefix if prefix else "./",
         gallery_lis="\n          ".join(gallery_lis),
+        blog_href=prefix + "blog/",
+        blog_active=blog_active,
         about_href=prefix + "about/",
         about_active=about_active,
     )
 
 
 def render_head(title, description, canonical_slug, og_image_path, depth, structured_data=""):
-    asset_prefix = "../" if depth else ""
+    asset_prefix = "../" * depth
     canonical_url = SITE_BASE_URL + canonical_slug
     og_image_url = SITE_BASE_URL + og_image_path
     return """<meta charset="UTF-8">
@@ -146,12 +160,13 @@ PAGE_SHELL = """<!DOCTYPE html>
 """
 
 
-def render_image(file, alt, w, h, depth, loading="lazy", fetchpriority=None):
-    prefix = "../" if depth else ""
+def render_image(file, alt, w, h, depth, loading="lazy", fetchpriority=None, css_class=None):
+    prefix = "../" * depth
     dims = ' width="{}" height="{}"'.format(w, h) if w and h else ""
     priority = ' fetchpriority="{}"'.format(fetchpriority) if fetchpriority else ""
-    return '<img src="{prefix}images/{file}" alt="{alt}"{dims} loading="{loading}"{priority}>'.format(
-        prefix=prefix, file=file, alt=html_escape(alt), dims=dims, loading=loading, priority=priority
+    cls = ' class="{}"'.format(css_class) if css_class else ""
+    return '<img src="{prefix}images/{file}" alt="{alt}"{cls}{dims} loading="{loading}"{priority}>'.format(
+        prefix=prefix, file=file, alt=html_escape(alt), cls=cls, dims=dims, loading=loading, priority=priority
     )
 
 
@@ -171,7 +186,7 @@ def render_grid(images, depth):
 
 
 def render_about(data, depth):
-    prefix = "../" if depth else ""
+    prefix = "../" * depth
     about = data["about"]
     email = data["site"]["email"]
 
@@ -193,6 +208,123 @@ def render_about(data, depth):
 
     return '<div class="about-page">\n    {photo}\n    <h1>About</h1>\n    {paragraphs}\n  </div>'.format(
         photo=photo_html, paragraphs="\n    ".join(paragraph_htmls)
+    )
+
+
+def render_blog_index(posts, depth):
+    prefix = "../" * depth
+    if not posts:
+        return (
+            '<h1 class="page-title">Blog</h1>\n'
+            '  <div class="home-intro"><p>No posts yet -- check back soon.</p></div>'
+        )
+
+    item_htmls = []
+    for post in posts:
+        cover_html = ""
+        if post.get("cover"):
+            cover_html = '<img class="blog-item-cover" src="{prefix}images/{cover}" alt="" loading="lazy">'.format(
+                prefix=prefix, cover=post["cover"]
+            )
+        item_htmls.append(
+            '<a class="blog-item" href="{prefix}blog/{slug}/">\n'
+            "      {cover}\n"
+            '      <div class="blog-item-body">\n'
+            '        <h2 class="blog-item-title">{title}</h2>\n'
+            '        <div class="blog-item-meta">{date}</div>\n'
+            '        <p class="blog-item-excerpt">{excerpt}</p>\n'
+            "      </div>\n"
+            "    </a>".format(
+                prefix=prefix,
+                slug=post["slug"],
+                cover=cover_html,
+                title=html_escape(post["title"]),
+                date=format_date(post["date"]),
+                excerpt=html_escape(post["excerpt"]),
+            )
+        )
+
+    return '<h1 class="page-title">Blog</h1>\n  <div class="blog-list">\n    {}\n  </div>'.format(
+        "\n    ".join(item_htmls)
+    )
+
+
+def render_day_section(day, depth):
+    photos = day.get("photos", [])
+    hero_idx = next(
+        (i for i, p in enumerate(photos) if p.get("w") and p.get("h") and p["w"] >= p["h"]),
+        0 if photos else None,
+    )
+    hero = photos[hero_idx] if hero_idx is not None else None
+    rest = [(i, p) for i, p in enumerate(photos) if i != hero_idx]
+
+    hero_html = ""
+    if hero:
+        hero_html = render_image(
+            hero["file"], hero.get("alt") or "{} -- photo {}".format(day["title"], hero_idx + 1),
+            hero.get("w"), hero.get("h"), depth, css_class="day-hero",
+        ) + "\n      "
+
+    grid_html = ""
+    if rest:
+        photos_html = "\n        ".join(
+            render_image(
+                p["file"],
+                p.get("alt") or "{} -- photo {}".format(day["title"], orig_i + 1),
+                p.get("w"), p.get("h"), depth,
+            )
+            for orig_i, p in rest
+        )
+        grid_html = (
+            '<div class="day-photos">\n'
+            "        {photos}\n"
+            "      </div>\n"
+        ).format(photos=photos_html)
+
+    text_html = "<p>{}</p>\n      ".format(html_escape(day["text"])) if day.get("text") else ""
+    return (
+        '<div class="day-section">\n'
+        "      <h2>{title}</h2>\n"
+        "      {text}"
+        "{hero}"
+        "{grid}"
+        "    </div>"
+    ).format(title=html_escape(day["title"]), text=text_html, hero=hero_html, grid=grid_html)
+
+
+def render_blog_post(post, depth):
+    prefix = "../" * depth
+    cover_html = ""
+    if post.get("cover"):
+        cover_html = '<img class="blog-post-cover" src="{prefix}images/{cover}" alt="">\n    '.format(
+            prefix=prefix, cover=post["cover"]
+        )
+
+    paragraph_htmls = "\n    ".join(
+        "<p>{}</p>".format(html_escape(text)) for text in post.get("paragraphs", [])
+    )
+
+    days_html = ""
+    if post.get("days"):
+        days_html = "\n    ".join(render_day_section(day, depth) for day in post["days"])
+
+    wrapper_class = "blog-post blog-post--essay" if post.get("days") else "blog-post"
+
+    return (
+        '<div class="{wrapper_class}">\n'
+        "    {cover}"
+        "<h1>{title}</h1>\n"
+        '    <div class="blog-post-meta">{date}</div>\n'
+        "    {paragraphs}\n"
+        "    {days}\n"
+        "  </div>"
+    ).format(
+        wrapper_class=wrapper_class,
+        cover=cover_html,
+        title=html_escape(post["title"]),
+        date=format_date(post["date"]),
+        paragraphs=paragraph_htmls,
+        days=days_html,
     )
 
 
@@ -231,11 +363,27 @@ def image_gallery_jsonld(name, url, images):
     }
 
 
+def blog_posting_jsonld(post):
+    url = SITE_BASE_URL + "blog/" + post["slug"] + "/"
+    obj = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": post["title"],
+        "description": post["excerpt"],
+        "url": url,
+        "datePublished": post["date"],
+        "author": {"@type": "Person", "name": "Skyler Hughes", "url": SITE_BASE_URL},
+    }
+    if post.get("cover"):
+        obj["image"] = SITE_BASE_URL + "images/" + post["cover"]
+    return obj
+
+
 def write_page(rel_dir, title, description, canonical_slug, og_image, page_json, nav_html, main_content="", structured_data=""):
-    depth = 1 if rel_dir else 0
+    depth = rel_dir.count("/") + 1 if rel_dir else 0
     page_json = dict(page_json, depth=depth)
     head = render_head(title, description, canonical_slug, og_image, depth, structured_data)
-    asset_prefix = "../" if depth else ""
+    asset_prefix = "../" * depth
     html = PAGE_SHELL.format(
         head=head,
         nav=nav_html,
@@ -275,10 +423,14 @@ def write_404_page(data):
         </ul>
       </div>
       <ul class="nav-flat">
+        <li><a href="{blog}" class="nav-link">Blog</a></li>
         <li><a href="{about}" class="nav-link">About</a></li>
       </ul>
     </nav>""".format(
-        home=SITE_BASE_URL, items="\n          ".join(nav_lis), about=SITE_BASE_URL + "about/"
+        home=SITE_BASE_URL,
+        items="\n          ".join(nav_lis),
+        blog=SITE_BASE_URL + "blog/",
+        about=SITE_BASE_URL + "about/",
     )
 
     main_content = (
@@ -346,6 +498,7 @@ def main():
     SITE_DATA_SITE = data["site"]
     pages = page_list(data)
     tagline = data["site"]["tagline"]
+    build_date = date.today().isoformat()
 
     # Home
     home_desc = tagline
@@ -364,7 +517,7 @@ def main():
         "", "Skyler Hughes Photography", home_desc, "", home_og_image,
         {"type": "home"}, nav_html, home_content, home_structured_data,
     )
-    sitemap_entries = [(SITE_BASE_URL, data["home"])]
+    sitemap_entries = [(SITE_BASE_URL, data["home"], build_date)]
 
     # Galleries
     for item in data["nav"]:
@@ -388,7 +541,7 @@ def main():
             gid, title, description, gid + "/", og_image,
             {"type": "gallery", "id": gid}, nav_html, main_content, gallery_structured_data,
         )
-        sitemap_entries.append((SITE_BASE_URL + gid + "/", images))
+        sitemap_entries.append((SITE_BASE_URL + gid + "/", images, build_date))
 
     # About
     about_title = "About | Skyler Hughes Photography"
@@ -401,21 +554,59 @@ def main():
         "about", about_title, about_desc, "about/", about_og_image,
         {"type": "about"}, nav_html, about_content, about_structured_data,
     )
-    sitemap_entries.append((SITE_BASE_URL + "about/", [{"file": data["about"]["photo"], "alt": "Skyler Hughes"}]))
+    sitemap_entries.append(
+        (SITE_BASE_URL + "about/", [{"file": data["about"]["photo"], "alt": "Skyler Hughes"}], build_date)
+    )
+
+    # Blog
+    posts = sorted_posts(data)
+    blog_title = "Blog | Skyler Hughes Photography"
+    blog_desc = "Notes on locations, technique, and gear from Skyler Hughes."
+    blog_og_image = "images/" + posts[0]["cover"] if posts and posts[0].get("cover") else home_og_image
+    nav_html = render_nav(data, pages, "blog", depth=1)
+    blog_content = render_blog_index(posts, depth=1)
+    blog_structured_data = render_jsonld({
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        "name": "Skyler Hughes Photography Blog",
+        "url": SITE_BASE_URL + "blog/",
+        "blogPost": [blog_posting_jsonld(post) for post in posts],
+    })
+    write_page(
+        "blog", blog_title, blog_desc, "blog/", blog_og_image,
+        {"type": "blog"}, nav_html, blog_content, blog_structured_data,
+    )
+    blog_index_images = [
+        {"file": post["cover"], "alt": post["title"]} for post in posts if post.get("cover")
+    ]
+    sitemap_entries.append((SITE_BASE_URL + "blog/", blog_index_images, build_date))
+
+    for post in posts:
+        post_title = "{} | Skyler Hughes Photography".format(post["title"])
+        post_slug = "blog/" + post["slug"]
+        post_og_image = "images/" + post["cover"] if post.get("cover") else home_og_image
+        nav_html = render_nav(data, pages, "blog", depth=2)
+        post_content = render_blog_post(post, depth=2)
+        post_structured_data = render_jsonld(blog_posting_jsonld(post))
+        write_page(
+            post_slug, post_title, post["excerpt"], post_slug + "/", post_og_image,
+            {"type": "blog-post", "slug": post["slug"]}, nav_html, post_content, post_structured_data,
+        )
+        post_images = [{"file": post["cover"], "alt": post["title"]}] if post.get("cover") else []
+        sitemap_entries.append((SITE_BASE_URL + post_slug + "/", post_images, post["date"]))
 
     # sitemap.xml (with the image sitemap extension, since this is a photo site
     # and captioned image entries are a direct lever for Google Images traffic)
     # + robots.txt
-    build_date = date.today().isoformat()
     sitemap = [
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
         '        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">',
     ]
-    for url, images in sitemap_entries:
+    for url, images, lastmod in sitemap_entries:
         sitemap.append("  <url>")
         sitemap.append("    <loc>{}</loc>".format(url))
-        sitemap.append("    <lastmod>{}</lastmod>".format(build_date))
+        sitemap.append("    <lastmod>{}</lastmod>".format(lastmod))
         for img in images:
             sitemap.append("    <image:image>")
             sitemap.append("      <image:loc>{}images/{}</image:loc>".format(SITE_BASE_URL, img["file"]))
@@ -431,7 +622,8 @@ def main():
 
     write_404_page(data)
 
-    print("Generated {} pages + 404.html + sitemap.xml + robots.txt".format(len(pages)))
+    total_pages = len(pages) + 1 + len(posts)
+    print("Generated {} pages + 404.html + sitemap.xml + robots.txt".format(total_pages))
 
 
 if __name__ == "__main__":

@@ -947,5 +947,416 @@ const SITE_DATA = {
       "I have been shooting landscape photography for around a decade. I started with a 35mm camera and an old 8mm video camera. Things have changed a lot but one thing remains consistent: I firmly believe in quality over quantity, and I try to take this approach in photography.",
       "Currently I work as a Product Designer and feel very lucky to live somewhere with easy access to the outdoors. If you are interested in any of my work or want to talk about photography and design, please message me anytime at hello@skylerhughes.com."
     ]
-  }
+  },
+  "blog": [
+    {
+      "slug": "tour-du-mont-blanc",
+      "title": "Tour du Mont Blanc",
+      "date": "2026-07-26",
+      "cover": "tour-du-mont-blanc/tmb-day4-02.jpg",
+      "excerpt": "Seven days trekking around Mont Blanc through France, Italy, and Switzerland -- Les Houches to Chamonix.",
+      "paragraphs": [
+        "Seven days circling Mont Blanc on foot through France, Italy, and Switzerland. Route notes for each day are below."
+      ],
+      "days": [
+        {
+          "title": "Day 1: Les Houches to Les Contamines",
+          "text": "Climbing out of Les Houches over the Col de Voza before dropping into the Val Montjoie to Les Contamines.",
+          "photos": [
+            {
+              "file": "tour-du-mont-blanc/tmb-day1-01.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day1-02.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day1-03.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day1-04.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day1-05.jpg",
+              "w": 1200,
+              "h": 1600
+            }
+          ]
+        },
+        {
+          "title": "Day 2: Les Contamines to Les Chapieux",
+          "text": "Over the Col du Bonhomme and Col de la Croix du Bonhomme to Les Chapieux.",
+          "photos": [
+            {
+              "file": "tour-du-mont-blanc/tmb-day2-01.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day2-02.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day2-03.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day2-04.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day2-05.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day2-06.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day2-07.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day2-08.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day2-09.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day2-10.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day2-11.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day2-12.jpg",
+              "w": 1600,
+              "h": 900
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day2-13.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day2-14.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day2-15.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day2-16.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day2-17.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day2-18.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day2-19.jpg",
+              "w": 1200,
+              "h": 1600
+            }
+          ]
+        },
+        {
+          "title": "Day 3: Les Chapieux to Courmayeur",
+          "text": "Crossing the Col de la Seigne into Italy, with the massif's Italian side leading down to Courmayeur.",
+          "photos": [
+            {
+              "file": "tour-du-mont-blanc/tmb-day3-01.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day3-02.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day3-03.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day3-04.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day3-05.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day3-06.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day3-07.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day3-08.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day3-09.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day3-10.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day3-11.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day3-12.jpg",
+              "w": 1600,
+              "h": 715
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day3-13.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day3-14.jpg",
+              "w": 1600,
+              "h": 656
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day3-15.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day3-16.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day3-17.jpg",
+              "w": 1600,
+              "h": 695
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day3-18.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day3-19.jpg",
+              "w": 1200,
+              "h": 1600
+            }
+          ]
+        },
+        {
+          "title": "Day 4: Courmayeur to La Fouly",
+          "text": "Through the Val Ferret and over the Grand Col Ferret into Switzerland.",
+          "photos": [
+            {
+              "file": "tour-du-mont-blanc/tmb-day4-01.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day4-02.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day4-03.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day4-04.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day4-05.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day4-06.jpg",
+              "w": 1600,
+              "h": 753
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day4-07.jpg",
+              "w": 1600,
+              "h": 706
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day4-08.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day4-09.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day4-10.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day4-11.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day4-12.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day4-13.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day4-14.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day4-15.jpg",
+              "w": 1600,
+              "h": 660
+            }
+          ]
+        },
+        {
+          "title": "Day 5: La Fouly to Trient",
+          "text": "Via Champex-Lac and over the ridge to Trient.",
+          "photos": [
+            {
+              "file": "tour-du-mont-blanc/tmb-day5-01.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day5-02.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day5-03.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day5-04.jpg",
+              "w": 1200,
+              "h": 1600
+            }
+          ]
+        },
+        {
+          "title": "Day 6: Trient to Les Praz",
+          "text": "Over the Col de Balme, back into France, down toward Les Praz.",
+          "photos": [
+            {
+              "file": "tour-du-mont-blanc/tmb-day6-01.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day6-02.jpg",
+              "w": 1201,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day6-03.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day6-04.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day6-05.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day6-06.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day6-07.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day6-08.jpg",
+              "w": 1200,
+              "h": 1600
+            }
+          ]
+        },
+        {
+          "title": "Day 7: Les Praz to Chamonix",
+          "text": "A short final stretch into Chamonix, closing the loop.",
+          "photos": [
+            {
+              "file": "tour-du-mont-blanc/tmb-day7-01.jpg",
+              "w": 1200,
+              "h": 1600
+            }
+          ]
+        }
+      ]
+    }
+  ]
 };

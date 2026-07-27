@@ -252,6 +252,142 @@ img { max-width: 100%; display: block; }
   color: var(--muted);
 }
 
+/* ---------- Blog ---------- */
+
+.blog-list {
+  display: flex;
+  flex-direction: column;
+  max-width: 760px;
+}
+
+.blog-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 28px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.blog-item:first-child {
+  padding-top: 0;
+}
+
+.blog-item-cover {
+  flex: none;
+  width: 160px;
+  height: 110px;
+  object-fit: cover;
+  background: #f4f3f1;
+}
+
+.blog-item-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.blog-item-title {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: var(--text);
+  margin: 0 0 6px;
+}
+
+.blog-item:hover .blog-item-title {
+  text-decoration: underline;
+}
+
+.blog-item-meta {
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+
+.blog-item-excerpt {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+}
+
+.blog-post {
+  max-width: 640px;
+}
+
+.blog-post-cover {
+  width: 100%;
+  height: auto;
+  margin-bottom: 28px;
+  background: #f4f3f1;
+}
+
+.blog-post h1 {
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  margin: 0 0 10px;
+}
+
+.blog-post-meta {
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  color: var(--muted);
+  margin-bottom: 28px;
+}
+
+.blog-post p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #333;
+  margin: 0 0 18px;
+}
+
+.blog-post--essay {
+  max-width: 900px;
+}
+
+.day-section {
+  margin-top: 40px;
+  padding-top: 32px;
+  border-top: 1px solid var(--border);
+}
+
+.day-section h2 {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  margin: 0 0 12px;
+}
+
+.day-section > p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--muted);
+  margin: 0 0 18px;
+}
+
+.day-hero {
+  width: 100%;
+  height: auto;
+  margin-bottom: 6px;
+  background: #f4f3f1;
+}
+
+.day-photos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 6px;
+}
+
+.day-photos img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+  background: #f4f3f1;
+}
+
 /* ---------- Lightbox ---------- */
 
 .lightbox {
@@ -315,5 +451,16 @@ img { max-width: 100%; display: block; }
 
   .grid, .grid-row {
     gap: 4px;
+  }
+
+  .blog-item {
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .blog-item-cover {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 10;
   }
 }

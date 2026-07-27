@@ -633,4 +633,20 @@
       <image:caption>Skyler Hughes</image:caption>
     </image:image>
   </url>
+  <url>
+    <loc>https://skylerhughesphotography.com/blog/</loc>
+    <lastmod>2026-07-26</lastmod>
+    <image:image>
+      <image:loc>https://skylerhughesphotography.com/images/tour-du-mont-blanc/tmb-day4-02.jpg</image:loc>
+      <image:caption>Tour du Mont Blanc</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://skylerhughesphotography.com/blog/tour-du-mont-blanc/</loc>
+    <lastmod>2026-07-26</lastmod>
+    <image:image>
+      <image:loc>https://skylerhughesphotography.com/images/tour-du-mont-blanc/tmb-day4-02.jpg</image:loc>
+      <image:caption>Tour du Mont Blanc</image:caption>
+    </image:image>
+  </url>
 </urlset>

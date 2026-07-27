@@ -11,8 +11,8 @@
   let currentIndex = 0;
 
   function assetPath(file, isImage) {
-    const prefix = window.PAGE && window.PAGE.depth ? "../" : "";
-    return prefix + (isImage ? "images/" : "") + file;
+    const depth = (window.PAGE && window.PAGE.depth) || 0;
+    return "../".repeat(depth) + (isImage ? "images/" : "") + file;
   }
 
   const GAP = 6;
