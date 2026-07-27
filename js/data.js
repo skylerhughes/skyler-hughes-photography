@@ -956,7 +956,11 @@ const SITE_DATA = {
       "cover": "tour-du-mont-blanc/tmb-day4-02.jpg",
       "excerpt": "Seven days trekking around Mont Blanc through France, Italy, and Switzerland -- Les Houches to Chamonix.",
       "paragraphs": [
-        "Seven days circling Mont Blanc on foot through France, Italy, and Switzerland. Route notes for each day are below."
+        "This month, Leilah and I finally completed a dream thru-hike across France, Italy, and Switzerland: the Tour du Mont Blanc. We’ve been planning this trip for years, so it felt surreal to finally be out on the trail.",
+        "Because we were camping and facing some long mileage, I opted to leave my camera gear behind and stick to my iPhone. Below is the 7-day breakdown of the segments we completed, coming in at a total of 97 miles (156 km) and over 24,000 feet (7,315 m) of elevation gain. The hot weather definitely added an extra layer of challenge.",
+        "Our daily routine usually meant an early start, packing up camp by 5:30 AM and hitting the trail by 6:00 AM. The toughest stretch was definitely grinding through back-to-back 20 mile days with massive climbs. Aside from one night in Courmayeur, we spent the trip in our tent, often refueling with meals at the refuges and campsite restaurants along the way.",
+        "Overall, it was a once in a lifetime experience: difficult, deeply rewarding, and packed with stunning views. While I’d love to think we’ll return to tackle other variations of the trail someday, only time will tell.",
+        "Bonus: Right after wrapping up the TMB, we jumped straight over to Switzerland to complete five sections of the Via Alpina, bringing our grand total for the trip to 160 miles (257 km). I’ll be sharing those stories over the coming weeks, but for now, here is how our week on the Tour du Mont Blanc broke down!"
       ],
       "days": [
         {
