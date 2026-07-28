@@ -1354,11 +1354,6 @@ const SITE_DATA = {
           "text": "A short final stretch into Chamonix, closing the loop.",
           "photos": [
             {
-              "file": "tour-du-mont-blanc/tmb-day7-01.jpg",
-              "w": 1200,
-              "h": 1600
-            },
-            {
               "file": "tour-du-mont-blanc/tmb-day7-02.jpg",
               "w": 1200,
               "h": 1600
