@@ -1357,6 +1357,21 @@ const SITE_DATA = {
               "file": "tour-du-mont-blanc/tmb-day7-01.jpg",
               "w": 1200,
               "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day7-02.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day7-03.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "tour-du-mont-blanc/tmb-day7-04.jpg",
+              "w": 1200,
+              "h": 1600
             }
           ]
         }
