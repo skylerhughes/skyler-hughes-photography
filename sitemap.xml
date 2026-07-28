@@ -3,7 +3,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://skylerhughesphotography.com/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <image:image>
       <image:loc>https://skylerhughesphotography.com/images/south-sister-skyler-hughes.webp</image:loc>
       <image:caption>South Sister volcano reflected in Sparks Lake at dusk</image:caption>
@@ -63,7 +63,7 @@
   </url>
   <url>
     <loc>https://skylerhughesphotography.com/central-oregon/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <image:image>
       <image:loc>https://skylerhughesphotography.com/images/south-sister-summit-sunrise-skyler-hughes.webp</image:loc>
       <image:caption>Snow-patched Cascade peaks viewed from South Sister's summit at sunrise</image:caption>
@@ -151,7 +151,7 @@
   </url>
   <url>
     <loc>https://skylerhughesphotography.com/pacific-northwest/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <image:image>
       <image:loc>https://skylerhughesphotography.com/images/proxy-skyler-hughes.webp</image:loc>
       <image:caption>Proxy Falls cascading over moss-covered cliffs in the Oregon Cascades</image:caption>
@@ -243,7 +243,7 @@
   </url>
   <url>
     <loc>https://skylerhughesphotography.com/southwest/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <image:image>
       <image:loc>https://skylerhughesphotography.com/images/bryce-skyler-hughes.webp</image:loc>
       <image:caption>Sunlight bursting through a hoodoo arch at Bryce Canyon National Park</image:caption>
@@ -295,7 +295,7 @@
   </url>
   <url>
     <loc>https://skylerhughesphotography.com/winter-wonderland/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <image:image>
       <image:loc>https://skylerhughesphotography.com/images/smith-rock-winter-skyler-hughes.webp</image:loc>
       <image:caption>Smith Rock's snow-dusted spires with a daytime moon in winter</image:caption>
@@ -347,7 +347,7 @@
   </url>
   <url>
     <loc>https://skylerhughesphotography.com/western-australia/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <image:image>
       <image:loc>https://skylerhughesphotography.com/images/humpback-whale-breach-skyler-hughes.webp</image:loc>
       <image:caption>Humpback whale breaching fully out of the ocean</image:caption>
@@ -411,7 +411,7 @@
   </url>
   <url>
     <loc>https://skylerhughesphotography.com/lifestyle/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <image:image>
       <image:loc>https://skylerhughesphotography.com/images/cory-fagin-bw-close-up-smith-rock-skyler-hughes.webp</image:loc>
       <image:caption>Black-and-white close-up of a rock climber reaching for a hold at Smith Rock</image:caption>
@@ -471,7 +471,7 @@
   </url>
   <url>
     <loc>https://skylerhughesphotography.com/new-images/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <image:image>
       <image:loc>https://skylerhughesphotography.com/images/bt-skyler-hughes.webp</image:loc>
       <image:caption>Broken Top's jagged peaks reflected in an alpine lake at sunset</image:caption>
@@ -627,7 +627,7 @@
   </url>
   <url>
     <loc>https://skylerhughesphotography.com/about/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <image:image>
       <image:loc>https://skylerhughesphotography.com/images/skyler-hughes-portrait.jpg</image:loc>
       <image:caption>Skyler Hughes</image:caption>
@@ -635,13 +635,13 @@
   </url>
   <url>
     <loc>https://skylerhughesphotography.com/blog/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <image:image>
-      <image:loc>https://skylerhughesphotography.com/images/via-alpina/via-day1-02.jpg</image:loc>
+      <image:loc>https://skylerhughesphotography.com/images/via-alpina/via-day1-02.webp</image:loc>
       <image:caption>Via Alpina</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://skylerhughesphotography.com/images/tour-du-mont-blanc/tmb-day4-02.jpg</image:loc>
+      <image:loc>https://skylerhughesphotography.com/images/tour-du-mont-blanc/tmb-day4-02.webp</image:loc>
       <image:caption>Tour du Mont Blanc</image:caption>
     </image:image>
   </url>
@@ -649,7 +649,7 @@
     <loc>https://skylerhughesphotography.com/blog/via-alpina/</loc>
     <lastmod>2026-07-27</lastmod>
     <image:image>
-      <image:loc>https://skylerhughesphotography.com/images/via-alpina/via-day1-02.jpg</image:loc>
+      <image:loc>https://skylerhughesphotography.com/images/via-alpina/via-day1-02.webp</image:loc>
       <image:caption>Via Alpina</image:caption>
     </image:image>
   </url>
@@ -657,7 +657,7 @@
     <loc>https://skylerhughesphotography.com/blog/tour-du-mont-blanc/</loc>
     <lastmod>2026-07-26</lastmod>
     <image:image>
-      <image:loc>https://skylerhughesphotography.com/images/tour-du-mont-blanc/tmb-day4-02.jpg</image:loc>
+      <image:loc>https://skylerhughesphotography.com/images/tour-du-mont-blanc/tmb-day4-02.webp</image:loc>
       <image:caption>Tour du Mont Blanc</image:caption>
     </image:image>
   </url>

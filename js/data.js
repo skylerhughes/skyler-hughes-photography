@@ -953,7 +953,7 @@ const SITE_DATA = {
       "slug": "tour-du-mont-blanc",
       "title": "Tour du Mont Blanc",
       "date": "2026-07-26",
-      "cover": "tour-du-mont-blanc/tmb-day4-02.jpg",
+      "cover": "tour-du-mont-blanc/tmb-day4-02.webp",
       "excerpt": "Seven days trekking around Mont Blanc through France, Italy, and Switzerland - Les Houches to Chamonix.",
       "paragraphs": [
         "This month, Leilah and I finally completed a dream thru-hike across France, Italy, and Switzerland: the Tour du Mont Blanc. We’ve been planning this trip for years, so it felt surreal to finally be out on the trail.",
@@ -968,27 +968,27 @@ const SITE_DATA = {
           "text": "Climbing out of Les Houches over the Col de Voza before dropping into the Val Montjoie to Les Contamines.",
           "photos": [
             {
-              "file": "tour-du-mont-blanc/tmb-day1-01.jpg",
+              "file": "tour-du-mont-blanc/tmb-day1-01.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day1-02.jpg",
+              "file": "tour-du-mont-blanc/tmb-day1-02.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day1-03.jpg",
+              "file": "tour-du-mont-blanc/tmb-day1-03.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day1-04.jpg",
+              "file": "tour-du-mont-blanc/tmb-day1-04.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day1-05.jpg",
+              "file": "tour-du-mont-blanc/tmb-day1-05.webp",
               "w": 1200,
               "h": 1600
             }
@@ -999,97 +999,97 @@ const SITE_DATA = {
           "text": "Over the Col du Bonhomme and Col de la Croix du Bonhomme to Les Chapieux.",
           "photos": [
             {
-              "file": "tour-du-mont-blanc/tmb-day2-01.jpg",
+              "file": "tour-du-mont-blanc/tmb-day2-01.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day2-02.jpg",
+              "file": "tour-du-mont-blanc/tmb-day2-02.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day2-03.jpg",
+              "file": "tour-du-mont-blanc/tmb-day2-03.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day2-04.jpg",
+              "file": "tour-du-mont-blanc/tmb-day2-04.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day2-05.jpg",
+              "file": "tour-du-mont-blanc/tmb-day2-05.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day2-06.jpg",
+              "file": "tour-du-mont-blanc/tmb-day2-06.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day2-07.jpg",
+              "file": "tour-du-mont-blanc/tmb-day2-07.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day2-08.jpg",
+              "file": "tour-du-mont-blanc/tmb-day2-08.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day2-09.jpg",
+              "file": "tour-du-mont-blanc/tmb-day2-09.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day2-10.jpg",
+              "file": "tour-du-mont-blanc/tmb-day2-10.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day2-11.jpg",
+              "file": "tour-du-mont-blanc/tmb-day2-11.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day2-12.jpg",
+              "file": "tour-du-mont-blanc/tmb-day2-12.webp",
               "w": 1600,
               "h": 900
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day2-13.jpg",
+              "file": "tour-du-mont-blanc/tmb-day2-13.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day2-14.jpg",
+              "file": "tour-du-mont-blanc/tmb-day2-14.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day2-15.jpg",
+              "file": "tour-du-mont-blanc/tmb-day2-15.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day2-16.jpg",
+              "file": "tour-du-mont-blanc/tmb-day2-16.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day2-17.jpg",
+              "file": "tour-du-mont-blanc/tmb-day2-17.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day2-18.jpg",
+              "file": "tour-du-mont-blanc/tmb-day2-18.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day2-19.jpg",
+              "file": "tour-du-mont-blanc/tmb-day2-19.webp",
               "w": 1200,
               "h": 1600
             }
@@ -1100,97 +1100,97 @@ const SITE_DATA = {
           "text": "Crossing the Col de la Seigne into Italy, with the massif's Italian side leading down to Courmayeur.",
           "photos": [
             {
-              "file": "tour-du-mont-blanc/tmb-day3-01.jpg",
+              "file": "tour-du-mont-blanc/tmb-day3-01.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day3-02.jpg",
+              "file": "tour-du-mont-blanc/tmb-day3-02.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day3-03.jpg",
+              "file": "tour-du-mont-blanc/tmb-day3-03.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day3-04.jpg",
+              "file": "tour-du-mont-blanc/tmb-day3-04.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day3-05.jpg",
+              "file": "tour-du-mont-blanc/tmb-day3-05.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day3-06.jpg",
+              "file": "tour-du-mont-blanc/tmb-day3-06.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day3-07.jpg",
+              "file": "tour-du-mont-blanc/tmb-day3-07.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day3-08.jpg",
+              "file": "tour-du-mont-blanc/tmb-day3-08.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day3-09.jpg",
+              "file": "tour-du-mont-blanc/tmb-day3-09.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day3-10.jpg",
+              "file": "tour-du-mont-blanc/tmb-day3-10.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day3-11.jpg",
+              "file": "tour-du-mont-blanc/tmb-day3-11.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day3-12.jpg",
+              "file": "tour-du-mont-blanc/tmb-day3-12.webp",
               "w": 1600,
               "h": 715
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day3-13.jpg",
+              "file": "tour-du-mont-blanc/tmb-day3-13.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day3-14.jpg",
+              "file": "tour-du-mont-blanc/tmb-day3-14.webp",
               "w": 1600,
               "h": 656
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day3-15.jpg",
+              "file": "tour-du-mont-blanc/tmb-day3-15.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day3-16.jpg",
+              "file": "tour-du-mont-blanc/tmb-day3-16.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day3-17.jpg",
+              "file": "tour-du-mont-blanc/tmb-day3-17.webp",
               "w": 1600,
               "h": 695
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day3-18.jpg",
+              "file": "tour-du-mont-blanc/tmb-day3-18.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day3-19.jpg",
+              "file": "tour-du-mont-blanc/tmb-day3-19.webp",
               "w": 1200,
               "h": 1600
             }
@@ -1201,77 +1201,77 @@ const SITE_DATA = {
           "text": "Through the Val Ferret and over the Grand Col Ferret into Switzerland.",
           "photos": [
             {
-              "file": "tour-du-mont-blanc/tmb-day4-01.jpg",
+              "file": "tour-du-mont-blanc/tmb-day4-01.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day4-02.jpg",
+              "file": "tour-du-mont-blanc/tmb-day4-02.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day4-03.jpg",
+              "file": "tour-du-mont-blanc/tmb-day4-03.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day4-04.jpg",
+              "file": "tour-du-mont-blanc/tmb-day4-04.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day4-05.jpg",
+              "file": "tour-du-mont-blanc/tmb-day4-05.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day4-06.jpg",
+              "file": "tour-du-mont-blanc/tmb-day4-06.webp",
               "w": 1600,
               "h": 753
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day4-07.jpg",
+              "file": "tour-du-mont-blanc/tmb-day4-07.webp",
               "w": 1600,
               "h": 706
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day4-08.jpg",
+              "file": "tour-du-mont-blanc/tmb-day4-08.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day4-09.jpg",
+              "file": "tour-du-mont-blanc/tmb-day4-09.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day4-10.jpg",
+              "file": "tour-du-mont-blanc/tmb-day4-10.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day4-11.jpg",
+              "file": "tour-du-mont-blanc/tmb-day4-11.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day4-12.jpg",
+              "file": "tour-du-mont-blanc/tmb-day4-12.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day4-13.jpg",
+              "file": "tour-du-mont-blanc/tmb-day4-13.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day4-14.jpg",
+              "file": "tour-du-mont-blanc/tmb-day4-14.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day4-15.jpg",
+              "file": "tour-du-mont-blanc/tmb-day4-15.webp",
               "w": 1600,
               "h": 660
             }
@@ -1282,22 +1282,22 @@ const SITE_DATA = {
           "text": "Via Champex-Lac and over the ridge to Trient.",
           "photos": [
             {
-              "file": "tour-du-mont-blanc/tmb-day5-01.jpg",
+              "file": "tour-du-mont-blanc/tmb-day5-01.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day5-02.jpg",
+              "file": "tour-du-mont-blanc/tmb-day5-02.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day5-03.jpg",
+              "file": "tour-du-mont-blanc/tmb-day5-03.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day5-04.jpg",
+              "file": "tour-du-mont-blanc/tmb-day5-04.webp",
               "w": 1200,
               "h": 1600
             }
@@ -1308,42 +1308,42 @@ const SITE_DATA = {
           "text": "Over the Col de Balme, back into France, down toward Les Praz.",
           "photos": [
             {
-              "file": "tour-du-mont-blanc/tmb-day6-01.jpg",
+              "file": "tour-du-mont-blanc/tmb-day6-01.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day6-02.jpg",
+              "file": "tour-du-mont-blanc/tmb-day6-02.webp",
               "w": 1201,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day6-03.jpg",
+              "file": "tour-du-mont-blanc/tmb-day6-03.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day6-04.jpg",
+              "file": "tour-du-mont-blanc/tmb-day6-04.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day6-05.jpg",
+              "file": "tour-du-mont-blanc/tmb-day6-05.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day6-06.jpg",
+              "file": "tour-du-mont-blanc/tmb-day6-06.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day6-07.jpg",
+              "file": "tour-du-mont-blanc/tmb-day6-07.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day6-08.jpg",
+              "file": "tour-du-mont-blanc/tmb-day6-08.webp",
               "w": 1200,
               "h": 1600
             }
@@ -1354,17 +1354,17 @@ const SITE_DATA = {
           "text": "A short final stretch into Chamonix, closing the loop.",
           "photos": [
             {
-              "file": "tour-du-mont-blanc/tmb-day7-02.jpg",
+              "file": "tour-du-mont-blanc/tmb-day7-02.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day7-03.jpg",
+              "file": "tour-du-mont-blanc/tmb-day7-03.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "tour-du-mont-blanc/tmb-day7-04.jpg",
+              "file": "tour-du-mont-blanc/tmb-day7-04.webp",
               "w": 1200,
               "h": 1600
             }
@@ -1376,7 +1376,7 @@ const SITE_DATA = {
       "slug": "via-alpina",
       "title": "Via Alpina",
       "date": "2026-07-27",
-      "cover": "via-alpina/via-day1-02.jpg",
+      "cover": "via-alpina/via-day1-02.webp",
       "excerpt": "Five days linking up sections of the Swiss Via Alpina through the Bernese Oberland - Meiringen to Adelboden.",
       "paragraphs": [
         "As promised in the last post, here is the story of the five days we spent linking up sections of the Swiss Via Alpina (the Alpine Pass Route) immediately after finishing the Tour du Mont Blanc. Unlike the TMB, this route runs hotel-to-hotel through classic Bernese Oberland villages, so we traded the tent for real beds most nights.",
@@ -1390,42 +1390,42 @@ const SITE_DATA = {
           "text": "Climbing out of Meiringen over the Grosse Scheidegg to Grindelwald, with the Wetterhorn towering overhead.",
           "photos": [
             {
-              "file": "via-alpina/via-day1-01.jpg",
+              "file": "via-alpina/via-day1-01.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "via-alpina/via-day1-02.jpg",
+              "file": "via-alpina/via-day1-02.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "via-alpina/via-day1-03.jpg",
+              "file": "via-alpina/via-day1-03.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "via-alpina/via-day1-05.jpg",
+              "file": "via-alpina/via-day1-05.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "via-alpina/via-day1-06.jpg",
+              "file": "via-alpina/via-day1-06.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "via-alpina/via-day1-07.jpg",
+              "file": "via-alpina/via-day1-07.webp",
               "w": 1600,
               "h": 982
             },
             {
-              "file": "via-alpina/via-day1-08.jpg",
+              "file": "via-alpina/via-day1-08.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "via-alpina/via-day1-09.jpg",
+              "file": "via-alpina/via-day1-09.webp",
               "w": 1600,
               "h": 1200
             }
@@ -1436,67 +1436,67 @@ const SITE_DATA = {
           "text": "Up and over the Kleine Scheidegg beneath the Eiger, dropping down into Wengen.",
           "photos": [
             {
-              "file": "via-alpina/via-day2-01.jpg",
+              "file": "via-alpina/via-day2-01.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "via-alpina/via-day2-02.jpg",
+              "file": "via-alpina/via-day2-02.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "via-alpina/via-day2-03.jpg",
+              "file": "via-alpina/via-day2-03.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "via-alpina/via-day2-04.jpg",
+              "file": "via-alpina/via-day2-04.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "via-alpina/via-day2-05.jpg",
+              "file": "via-alpina/via-day2-05.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "via-alpina/via-day2-06.jpg",
+              "file": "via-alpina/via-day2-06.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "via-alpina/via-day2-07.jpg",
+              "file": "via-alpina/via-day2-07.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "via-alpina/via-day2-08.jpg",
+              "file": "via-alpina/via-day2-08.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "via-alpina/via-day2-10.jpg",
+              "file": "via-alpina/via-day2-10.webp",
               "w": 1600,
               "h": 850
             },
             {
-              "file": "via-alpina/via-day2-11.jpg",
+              "file": "via-alpina/via-day2-11.webp",
               "w": 1600,
               "h": 584
             },
             {
-              "file": "via-alpina/via-day2-12.jpg",
+              "file": "via-alpina/via-day2-12.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "via-alpina/via-day2-13.jpg",
+              "file": "via-alpina/via-day2-13.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "via-alpina/via-day2-14.jpg",
+              "file": "via-alpina/via-day2-14.webp",
               "w": 1200,
               "h": 1600
             }
@@ -1507,92 +1507,92 @@ const SITE_DATA = {
           "text": "A long, exposed crossing over the Sefinenfurgge into the Griesalp valley.",
           "photos": [
             {
-              "file": "via-alpina/via-day3-01.jpg",
+              "file": "via-alpina/via-day3-01.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "via-alpina/via-day3-02.jpg",
+              "file": "via-alpina/via-day3-02.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "via-alpina/via-day3-03.jpg",
+              "file": "via-alpina/via-day3-03.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "via-alpina/via-day3-04.jpg",
+              "file": "via-alpina/via-day3-04.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "via-alpina/via-day3-05.jpg",
+              "file": "via-alpina/via-day3-05.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "via-alpina/via-day3-06.jpg",
+              "file": "via-alpina/via-day3-06.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "via-alpina/via-day3-08.jpg",
+              "file": "via-alpina/via-day3-08.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "via-alpina/via-day3-09.jpg",
+              "file": "via-alpina/via-day3-09.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "via-alpina/via-day3-10.jpg",
+              "file": "via-alpina/via-day3-10.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "via-alpina/via-day3-11.jpg",
+              "file": "via-alpina/via-day3-11.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "via-alpina/via-day3-13.jpg",
+              "file": "via-alpina/via-day3-13.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "via-alpina/via-day3-16.jpg",
+              "file": "via-alpina/via-day3-16.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "via-alpina/via-day3-17.jpg",
+              "file": "via-alpina/via-day3-17.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "via-alpina/via-day3-18.jpg",
+              "file": "via-alpina/via-day3-18.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "via-alpina/via-day3-19.jpg",
+              "file": "via-alpina/via-day3-19.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "via-alpina/via-day3-20.jpg",
+              "file": "via-alpina/via-day3-20.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "via-alpina/via-day3-21.jpg",
+              "file": "via-alpina/via-day3-21.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "via-alpina/via-day3-22.jpg",
+              "file": "via-alpina/via-day3-22.webp",
               "w": 1600,
               "h": 1200
             }
@@ -1603,72 +1603,72 @@ const SITE_DATA = {
           "text": "Our biggest climb of the trip, up and over the Hohtuerli pass past the Bluemlisalp hut, then down past Lake Oeschinen into Kandersteg.",
           "photos": [
             {
-              "file": "via-alpina/via-day4-01.jpg",
+              "file": "via-alpina/via-day4-01.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "via-alpina/via-day4-02.jpg",
+              "file": "via-alpina/via-day4-02.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "via-alpina/via-day4-03.jpg",
+              "file": "via-alpina/via-day4-03.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "via-alpina/via-day4-04.jpg",
+              "file": "via-alpina/via-day4-04.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "via-alpina/via-day4-05.jpg",
+              "file": "via-alpina/via-day4-05.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "via-alpina/via-day4-06.jpg",
+              "file": "via-alpina/via-day4-06.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "via-alpina/via-day4-07.jpg",
+              "file": "via-alpina/via-day4-07.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "via-alpina/via-day4-10.jpg",
+              "file": "via-alpina/via-day4-10.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "via-alpina/via-day4-11.jpg",
+              "file": "via-alpina/via-day4-11.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "via-alpina/via-day4-14.jpg",
+              "file": "via-alpina/via-day4-14.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "via-alpina/via-day4-15.jpg",
+              "file": "via-alpina/via-day4-15.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "via-alpina/via-day4-16.jpg",
+              "file": "via-alpina/via-day4-16.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "via-alpina/via-day4-17.jpg",
+              "file": "via-alpina/via-day4-17.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "via-alpina/via-day4-18.jpg",
+              "file": "via-alpina/via-day4-18.webp",
               "w": 1600,
               "h": 1200
             }
@@ -1679,57 +1679,57 @@ const SITE_DATA = {
           "text": "One final climb over the Hahnenmoospass, closing out the Via Alpina in Adelboden.",
           "photos": [
             {
-              "file": "via-alpina/via-day5-01.jpg",
+              "file": "via-alpina/via-day5-01.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "via-alpina/via-day5-02.jpg",
+              "file": "via-alpina/via-day5-02.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "via-alpina/via-day5-03.jpg",
+              "file": "via-alpina/via-day5-03.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "via-alpina/via-day5-04.jpg",
+              "file": "via-alpina/via-day5-04.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "via-alpina/via-day5-05.jpg",
+              "file": "via-alpina/via-day5-05.webp",
               "w": 1600,
               "h": 577
             },
             {
-              "file": "via-alpina/via-day5-06.jpg",
+              "file": "via-alpina/via-day5-06.webp",
               "w": 1200,
               "h": 1600
             },
             {
-              "file": "via-alpina/via-day5-07.jpg",
+              "file": "via-alpina/via-day5-07.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "via-alpina/via-day5-08.jpg",
+              "file": "via-alpina/via-day5-08.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "via-alpina/via-day5-09.jpg",
+              "file": "via-alpina/via-day5-09.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "via-alpina/via-day5-10.jpg",
+              "file": "via-alpina/via-day5-10.webp",
               "w": 1600,
               "h": 1200
             },
             {
-              "file": "via-alpina/via-day5-11.jpg",
+              "file": "via-alpina/via-day5-11.webp",
               "w": 1200,
               "h": 1600
             }
