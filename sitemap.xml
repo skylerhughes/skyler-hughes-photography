@@ -637,8 +637,20 @@
     <loc>https://skylerhughesphotography.com/blog/</loc>
     <lastmod>2026-07-27</lastmod>
     <image:image>
+      <image:loc>https://skylerhughesphotography.com/images/via-alpina/via-day1-02.jpg</image:loc>
+      <image:caption>Via Alpina</image:caption>
+    </image:image>
+    <image:image>
       <image:loc>https://skylerhughesphotography.com/images/tour-du-mont-blanc/tmb-day4-02.jpg</image:loc>
       <image:caption>Tour du Mont Blanc</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://skylerhughesphotography.com/blog/via-alpina/</loc>
+    <lastmod>2026-07-27</lastmod>
+    <image:image>
+      <image:loc>https://skylerhughesphotography.com/images/via-alpina/via-day1-02.jpg</image:loc>
+      <image:caption>Via Alpina</image:caption>
     </image:image>
   </url>
   <url>

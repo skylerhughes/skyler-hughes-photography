@@ -954,10 +954,10 @@ const SITE_DATA = {
       "title": "Tour du Mont Blanc",
       "date": "2026-07-26",
       "cover": "tour-du-mont-blanc/tmb-day4-02.jpg",
-      "excerpt": "Seven days trekking around Mont Blanc through France, Italy, and Switzerland -- Les Houches to Chamonix.",
+      "excerpt": "Seven days trekking around Mont Blanc through France, Italy, and Switzerland - Les Houches to Chamonix.",
       "paragraphs": [
         "This month, Leilah and I finally completed a dream thru-hike across France, Italy, and Switzerland: the Tour du Mont Blanc. We’ve been planning this trip for years, so it felt surreal to finally be out on the trail.",
-        "Because we were camping and facing some long mileage, I opted to leave my camera gear behind and stick to my iPhone. Below is the 7-day breakdown of the segments we completed, coming in at a total of 97 miles (156 km) and over 24,000 feet (7,315 m) of elevation gain. The hot weather definitely added an extra layer of challenge.",
+        "Because we were camping and facing some long mileage, I opted to leave my camera gear behind and stick to my iPhone. Below is the 7-day breakdown of the segments we completed, coming in at a total of 97 miles (156 km) and over 33,000 feet (10,058 m) of elevation gain. The hot weather definitely added an extra layer of challenge.",
         "Our daily routine usually meant an early start, packing up camp by 5:30 AM and hitting the trail by 6:00 AM. The toughest stretch was definitely grinding through back-to-back 20 mile days with massive climbs. Aside from one night in Courmayeur, we spent the trip in our tent, often refueling with meals at the refuges and campsite restaurants along the way.",
         "Overall, it was a once in a lifetime experience: difficult, deeply rewarding, and packed with stunning views. While I’d love to think we’ll return to tackle other variations of the trail someday, only time will tell.",
         "Bonus: Right after wrapping up the TMB, we jumped straight over to Switzerland to complete five sections of the Via Alpina, bringing our grand total for the trip to 160 miles (257 km). I’ll be sharing those stories over the coming weeks, but for now, here is how our week on the Tour du Mont Blanc broke down!"
@@ -1365,6 +1365,371 @@ const SITE_DATA = {
             },
             {
               "file": "tour-du-mont-blanc/tmb-day7-04.jpg",
+              "w": 1200,
+              "h": 1600
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "via-alpina",
+      "title": "Via Alpina",
+      "date": "2026-07-27",
+      "cover": "via-alpina/via-day1-02.jpg",
+      "excerpt": "Five days linking up sections of the Swiss Via Alpina through the Bernese Oberland - Meiringen to Adelboden.",
+      "paragraphs": [
+        "As promised in the last post, here is the story of the five days we spent linking up sections of the Swiss Via Alpina (the Alpine Pass Route) immediately after finishing the Tour du Mont Blanc. Unlike the TMB, this route runs hotel-to-hotel through classic Bernese Oberland villages, so we traded the tent for real beds most nights.",
+        "We covered 63 miles (101 km) and climbed roughly 24,000 feet (7,315 m) over five days, hiking beneath the Eiger, Moench, and Jungfrau before finishing in Adelboden. Still running on tired legs from the TMB, we again left the camera gear behind and shot everything on my iPhone.",
+        "Every day brought a new high pass. Grosse Scheidegg, Kleine Scheidegg, Sefinenfurgge, Hohtuerli, and finally the Hahnenmoos pass, each with its own personality, from cow meadows to glacier views to the turquoise water of Lake Oeschinen.",
+        "It was a good complement to the TMB: shorter days, easier logistics, and incredible mountains. Here is how our week on the Via Alpina broke down."
+      ],
+      "days": [
+        {
+          "title": "Day 1: Meiringen to Grindelwald",
+          "text": "Climbing out of Meiringen over the Grosse Scheidegg to Grindelwald, with the Wetterhorn towering overhead.",
+          "photos": [
+            {
+              "file": "via-alpina/via-day1-01.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "via-alpina/via-day1-02.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "via-alpina/via-day1-03.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "via-alpina/via-day1-05.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "via-alpina/via-day1-06.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "via-alpina/via-day1-07.jpg",
+              "w": 1600,
+              "h": 982
+            },
+            {
+              "file": "via-alpina/via-day1-08.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "via-alpina/via-day1-09.jpg",
+              "w": 1600,
+              "h": 1200
+            }
+          ]
+        },
+        {
+          "title": "Day 2: Grindelwald to Wengen",
+          "text": "Up and over the Kleine Scheidegg beneath the Eiger, dropping down into Wengen.",
+          "photos": [
+            {
+              "file": "via-alpina/via-day2-01.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "via-alpina/via-day2-02.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "via-alpina/via-day2-03.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "via-alpina/via-day2-04.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "via-alpina/via-day2-05.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "via-alpina/via-day2-06.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "via-alpina/via-day2-07.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "via-alpina/via-day2-08.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "via-alpina/via-day2-10.jpg",
+              "w": 1600,
+              "h": 850
+            },
+            {
+              "file": "via-alpina/via-day2-11.jpg",
+              "w": 1600,
+              "h": 584
+            },
+            {
+              "file": "via-alpina/via-day2-12.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "via-alpina/via-day2-13.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "via-alpina/via-day2-14.jpg",
+              "w": 1200,
+              "h": 1600
+            }
+          ]
+        },
+        {
+          "title": "Day 3: Wengen to Griesalp",
+          "text": "A long, exposed crossing over the Sefinenfurgge into the Griesalp valley.",
+          "photos": [
+            {
+              "file": "via-alpina/via-day3-01.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "via-alpina/via-day3-02.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "via-alpina/via-day3-03.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "via-alpina/via-day3-04.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "via-alpina/via-day3-05.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "via-alpina/via-day3-06.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "via-alpina/via-day3-08.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "via-alpina/via-day3-09.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "via-alpina/via-day3-10.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "via-alpina/via-day3-11.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "via-alpina/via-day3-13.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "via-alpina/via-day3-16.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "via-alpina/via-day3-17.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "via-alpina/via-day3-18.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "via-alpina/via-day3-19.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "via-alpina/via-day3-20.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "via-alpina/via-day3-21.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "via-alpina/via-day3-22.jpg",
+              "w": 1600,
+              "h": 1200
+            }
+          ]
+        },
+        {
+          "title": "Day 4: Griesalp to Kandersteg",
+          "text": "Our biggest climb of the trip, up and over the Hohtuerli pass past the Bluemlisalp hut, then down past Lake Oeschinen into Kandersteg.",
+          "photos": [
+            {
+              "file": "via-alpina/via-day4-01.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "via-alpina/via-day4-02.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "via-alpina/via-day4-03.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "via-alpina/via-day4-04.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "via-alpina/via-day4-05.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "via-alpina/via-day4-06.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "via-alpina/via-day4-07.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "via-alpina/via-day4-10.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "via-alpina/via-day4-11.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "via-alpina/via-day4-14.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "via-alpina/via-day4-15.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "via-alpina/via-day4-16.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "via-alpina/via-day4-17.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "via-alpina/via-day4-18.jpg",
+              "w": 1600,
+              "h": 1200
+            }
+          ]
+        },
+        {
+          "title": "Day 5: Kandersteg to Adelboden",
+          "text": "One final climb over the Hahnenmoospass, closing out the Via Alpina in Adelboden.",
+          "photos": [
+            {
+              "file": "via-alpina/via-day5-01.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "via-alpina/via-day5-02.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "via-alpina/via-day5-03.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "via-alpina/via-day5-04.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "via-alpina/via-day5-05.jpg",
+              "w": 1600,
+              "h": 577
+            },
+            {
+              "file": "via-alpina/via-day5-06.jpg",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "via-alpina/via-day5-07.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "via-alpina/via-day5-08.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "via-alpina/via-day5-09.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "via-alpina/via-day5-10.jpg",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "via-alpina/via-day5-11.jpg",
               "w": 1200,
               "h": 1600
             }
