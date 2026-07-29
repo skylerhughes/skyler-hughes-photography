@@ -125,6 +125,8 @@ img { max-width: 100%; display: block; }
 
 .sidebar-footer a:hover { color: var(--text); }
 
+.sidebar-footer a[href*="instagram.com"]:hover { color: #e4405f; }
+
 /* ---------- Mobile nav toggle ---------- */
 
 .nav-toggle {

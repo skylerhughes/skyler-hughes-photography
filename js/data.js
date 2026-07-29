@@ -460,16 +460,28 @@ const SITE_DATA = {
     ],
     "winter-wonderland": [
       {
+        "file": "northern-lights-alaska-april-2024-skyler-hughes.webp",
+        "alt": "Green and purple northern lights swirling over a snow-capped Alaskan ridge",
+        "w": 1600,
+        "h": 1078
+      },
+      {
+        "file": "alaska-mountain-range-skyler-hughes.webp",
+        "alt": "Alpenglow lighting a jagged peak above layered snow-covered Alaskan ranges",
+        "w": 1600,
+        "h": 1075
+      },
+      {
+        "file": "alaska-simple-mountain-2024-skyler-hughes.webp",
+        "alt": "A smooth, corniced Alaskan summit glowing blue in evening light above a glacier",
+        "w": 1600,
+        "h": 1067
+      },
+      {
         "file": "smith-rock-winter-skyler-hughes.webp",
         "alt": "Smith Rock's snow-dusted spires with a daytime moon in winter",
         "w": 1200,
         "h": 766
-      },
-      {
-        "file": "selfie-skyler-hughes.webp",
-        "alt": "Snowshoer illuminated by headlamp beneath a frost-covered tree canopy at dusk",
-        "w": 1200,
-        "h": 882
       },
       {
         "file": "fall-creek-falls-skyler-hughes-15678114.jpg",
@@ -625,6 +637,24 @@ const SITE_DATA = {
       }
     ],
     "lifestyle": [
+      {
+        "file": "alaska-group-tour-skyler-hughes.webp",
+        "alt": "A roped group of ski tourers ascending a sunlit Alaskan snow slope",
+        "w": 1600,
+        "h": 1067
+      },
+      {
+        "file": "alaska-tents-skyler-hughes.webp",
+        "alt": "Blue mountaineering tents pitched on a glacier beneath snow-capped peaks at dusk",
+        "w": 1067,
+        "h": 1600
+      },
+      {
+        "file": "alaska-tents-2-skyler-hughes.webp",
+        "alt": "A small glacier basecamp of tents in Alaska with ski tracks winding toward the ridge",
+        "w": 1067,
+        "h": 1600
+      },
       {
         "file": "cory-fagin-bw-close-up-smith-rock-skyler-hughes.webp",
         "alt": "Black-and-white close-up of a rock climber reaching for a hold at Smith Rock",
