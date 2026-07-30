@@ -460,6 +460,12 @@ const SITE_DATA = {
     ],
     "winter-wonderland": [
       {
+        "file": "middle-sister-skyler-hughes.webp",
+        "alt": "Middle Sister's snow-plastered summit rising above a cloud-streaked blue sky",
+        "w": 1600,
+        "h": 1067
+      },
+      {
         "file": "northern-lights-alaska-april-2024-skyler-hughes.webp",
         "alt": "Green and purple northern lights swirling over a snow-capped Alaskan ridge",
         "w": 1600,
