@@ -382,6 +382,30 @@ const SITE_DATA = {
         "alt": "Cracked playa of the Alvord Desert beneath Steens Mountain at sunrise",
         "w": 796,
         "h": 1200
+      },
+      {
+        "file": "fall-creek-falls-skyler-hughes-16093574.webp",
+        "alt": "Fall Creek Falls tumbling in tiers through a lush green summer forest",
+        "w": 800,
+        "h": 1200
+      },
+      {
+        "file": "silver-falls-state-park-skyler-hughes-16093574.webp",
+        "alt": "A two-tier waterfall dropping through golden autumn canopy at Silver Falls",
+        "w": 800,
+        "h": 1200
+      },
+      {
+        "file": "panther-creek-2-skyler-hughes.webp",
+        "alt": "Panther Creek Falls fanning out over a moss-covered rock face",
+        "w": 800,
+        "h": 1200
+      },
+      {
+        "file": "butte-creek-falls-skyler-hughes.webp",
+        "alt": "Butte Creek Falls cascading through a canopy of autumn color",
+        "w": 1200,
+        "h": 800
       }
     ],
     "southwest": [
@@ -754,12 +778,6 @@ const SITE_DATA = {
         "h": 1558
       },
       {
-        "file": "butte-creek-falls-skyler-hughes.webp",
-        "alt": "Butte Creek Falls cascading through a canopy of autumn color",
-        "w": 1200,
-        "h": 800
-      },
-      {
         "file": "canadian-mountain-from-hut-skyler-hughes-web.webp",
         "alt": "Jagged Canadian Rockies peak reflected in a calm alpine lake at dusk",
         "w": 800,
@@ -778,28 +796,10 @@ const SITE_DATA = {
         "h": 1200
       },
       {
-        "file": "fall-creek-falls-skyler-hughes-16093574.webp",
-        "alt": "Fall Creek Falls tumbling in tiers through a lush green summer forest",
-        "w": 800,
-        "h": 1200
-      },
-      {
         "file": "jackson-kimball-state-park-skyler-hughes.webp",
         "alt": "Aerial view of a turquoise spring-fed pool at Jackson Kimball State Park",
         "w": 1200,
         "h": 939
-      },
-      {
-        "file": "panther-creek-2-skyler-hughes.webp",
-        "alt": "Panther Creek Falls fanning out over a moss-covered rock face",
-        "w": 800,
-        "h": 1200
-      },
-      {
-        "file": "silver-falls-state-park-skyler-hughes-16093574.webp",
-        "alt": "A two-tier waterfall dropping through golden autumn canopy at Silver Falls",
-        "w": 800,
-        "h": 1200
       },
       {
         "file": "spotted-owl-july-18-2.webp",
