@@ -3,7 +3,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://skylerhughesphotography.com/</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-07-31</lastmod>
     <image:image>
       <image:loc>https://skylerhughesphotography.com/images/south-sister-skyler-hughes.webp</image:loc>
       <image:caption>South Sister volcano reflected in Sparks Lake at dusk</image:caption>
@@ -63,7 +63,7 @@
   </url>
   <url>
     <loc>https://skylerhughesphotography.com/central-oregon/</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-07-31</lastmod>
     <image:image>
       <image:loc>https://skylerhughesphotography.com/images/south-sister-summit-sunrise-skyler-hughes.webp</image:loc>
       <image:caption>Snow-patched Cascade peaks viewed from South Sister's summit at sunrise</image:caption>
@@ -132,10 +132,14 @@
       <image:loc>https://skylerhughesphotography.com/images/bt-winter-skyler-hughes.webp</image:loc>
       <image:caption>Broken Top's snowy peaks catching alpenglow above a frozen creek</image:caption>
     </image:image>
+    <image:image>
+      <image:loc>https://skylerhughesphotography.com/images/sierra-nevada-red-fox-skyler-hughes.webp</image:loc>
+      <image:caption>Dark-morph Sierra Nevada red fox standing in the snow</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://skylerhughesphotography.com/pacific-northwest/</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-07-31</lastmod>
     <image:image>
       <image:loc>https://skylerhughesphotography.com/images/proxy-skyler-hughes.webp</image:loc>
       <image:caption>Proxy Falls cascading over moss-covered cliffs in the Oregon Cascades</image:caption>
@@ -212,10 +216,22 @@
       <image:loc>https://skylerhughesphotography.com/images/two-owls-skyler-hughes.webp</image:loc>
       <image:caption>Two spotted owls perched on a moss-covered branch in the forest</image:caption>
     </image:image>
+    <image:image>
+      <image:loc>https://skylerhughesphotography.com/images/alvord-desert-night-skyler-hughes.webp</image:loc>
+      <image:caption>Cracked Alvord Desert playa beneath a starry night sky with a dramatic cloud</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughesphotography.com/images/black-bear-oregon-skyler-hughes.webp</image:loc>
+      <image:caption>Black bear foraging in green berry bushes in an Oregon forest</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughesphotography.com/images/gordon-creek-autumn-skyler-hughes.webp</image:loc>
+      <image:caption>Moss-covered boulders in Gordon Creek with fallen maple leaves in autumn</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://skylerhughesphotography.com/southwest/</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-07-31</lastmod>
     <image:image>
       <image:loc>https://skylerhughesphotography.com/images/bryce-skyler-hughes.webp</image:loc>
       <image:caption>Sunlight bursting through a hoodoo arch at Bryce Canyon National Park</image:caption>
@@ -267,7 +283,7 @@
   </url>
   <url>
     <loc>https://skylerhughesphotography.com/winter-wonderland/</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-07-31</lastmod>
     <image:image>
       <image:loc>https://skylerhughesphotography.com/images/middle-sister-skyler-hughes.webp</image:loc>
       <image:caption>Middle Sister's snow-plastered summit rising above a cloud-streaked blue sky</image:caption>
@@ -324,10 +340,18 @@
       <image:loc>https://skylerhughesphotography.com/images/bt-winter-skyler-hughes.webp</image:loc>
       <image:caption>Broken Top's snowy peaks catching alpenglow above a frozen creek</image:caption>
     </image:image>
+    <image:image>
+      <image:loc>https://skylerhughesphotography.com/images/deer-in-snow-skyler-hughes.webp</image:loc>
+      <image:caption>Mule deer standing in falling snow among frosted sagebrush</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylerhughesphotography.com/images/tamanawas-falls-winter-skyler-hughes.webp</image:loc>
+      <image:caption>Tamanawas Falls framed by icicles and snow-covered boulders in winter</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://skylerhughesphotography.com/western-australia/</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-07-31</lastmod>
     <image:image>
       <image:loc>https://skylerhughesphotography.com/images/humpback-whale-breach-skyler-hughes.webp</image:loc>
       <image:caption>Humpback whale breaching fully out of the ocean</image:caption>
@@ -391,7 +415,7 @@
   </url>
   <url>
     <loc>https://skylerhughesphotography.com/lifestyle/</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-07-31</lastmod>
     <image:image>
       <image:loc>https://skylerhughesphotography.com/images/alaska-group-tour-skyler-hughes.webp</image:loc>
       <image:caption>A roped group of ski tourers ascending a sunlit Alaskan snow slope</image:caption>
@@ -460,10 +484,14 @@
       <image:loc>https://skylerhughesphotography.com/images/bobby-smith-rock-gorge-skyler-hughes.webp</image:loc>
       <image:caption>Climber scaling a rock face in the Smith Rock gorge</image:caption>
     </image:image>
+    <image:image>
+      <image:loc>https://skylerhughesphotography.com/images/bobby-middle-sister-tour-skyler-hughes.webp</image:loc>
+      <image:caption>Ski tourer pausing to admire Middle Sister's cloud-wrapped summit</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://skylerhughesphotography.com/new-images/</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-07-31</lastmod>
     <image:image>
       <image:loc>https://skylerhughesphotography.com/images/lava-lake-fishing.webp</image:loc>
       <image:caption>Two anglers fishing from a boat on a misty lake at sunrise</image:caption>
@@ -499,7 +527,7 @@
   </url>
   <url>
     <loc>https://skylerhughesphotography.com/about/</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-07-31</lastmod>
     <image:image>
       <image:loc>https://skylerhughesphotography.com/images/skyler-hughes-portrait.jpg</image:loc>
       <image:caption>Skyler Hughes</image:caption>
@@ -507,7 +535,7 @@
   </url>
   <url>
     <loc>https://skylerhughesphotography.com/blog/</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-07-31</lastmod>
     <image:image>
       <image:loc>https://skylerhughesphotography.com/images/via-alpina/via-day1-02.webp</image:loc>
       <image:caption>Via Alpina</image:caption>

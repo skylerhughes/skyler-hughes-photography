@@ -224,6 +224,12 @@ const SITE_DATA = {
         "alt": "Broken Top's snowy peaks catching alpenglow above a frozen creek",
         "w": 800,
         "h": 1200
+      },
+      {
+        "file": "sierra-nevada-red-fox-skyler-hughes.webp",
+        "alt": "Dark-morph Sierra Nevada red fox standing in the snow",
+        "w": 1067,
+        "h": 1600
       }
     ],
     "pacific-northwest": [
@@ -338,6 +344,24 @@ const SITE_DATA = {
       {
         "file": "two-owls-skyler-hughes.webp",
         "alt": "Two spotted owls perched on a moss-covered branch in the forest",
+        "w": 1067,
+        "h": 1600
+      },
+      {
+        "file": "alvord-desert-night-skyler-hughes.webp",
+        "alt": "Cracked Alvord Desert playa beneath a starry night sky with a dramatic cloud",
+        "w": 1123,
+        "h": 1600
+      },
+      {
+        "file": "black-bear-oregon-skyler-hughes.webp",
+        "alt": "Black bear foraging in green berry bushes in an Oregon forest",
+        "w": 1343,
+        "h": 1600
+      },
+      {
+        "file": "gordon-creek-autumn-skyler-hughes.webp",
+        "alt": "Moss-covered boulders in Gordon Creek with fallen maple leaves in autumn",
         "w": 1067,
         "h": 1600
       }
@@ -500,6 +524,18 @@ const SITE_DATA = {
         "alt": "Broken Top's snowy peaks catching alpenglow above a frozen creek",
         "w": 800,
         "h": 1200
+      },
+      {
+        "file": "deer-in-snow-skyler-hughes.webp",
+        "alt": "Mule deer standing in falling snow among frosted sagebrush",
+        "w": 1600,
+        "h": 1196
+      },
+      {
+        "file": "tamanawas-falls-winter-skyler-hughes.webp",
+        "alt": "Tamanawas Falls framed by icicles and snow-covered boulders in winter",
+        "w": 1067,
+        "h": 1600
       }
     ],
     "western-australia": [
@@ -696,6 +732,12 @@ const SITE_DATA = {
         "alt": "Climber scaling a rock face in the Smith Rock gorge",
         "w": 1200,
         "h": 800
+      },
+      {
+        "file": "bobby-middle-sister-tour-skyler-hughes.webp",
+        "alt": "Ski tourer pausing to admire Middle Sister's cloud-wrapped summit",
+        "w": 1600,
+        "h": 1046
       }
     ],
     "new-images": [
