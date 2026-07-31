@@ -542,12 +542,6 @@ const SITE_DATA = {
         "alt": "Broken Top's snowy peaks catching alpenglow above a frozen creek",
         "w": 800,
         "h": 1200
-      },
-      {
-        "file": "crater-lake-winter-skyler-hughes.webp",
-        "alt": "Crater Lake's snow-covered rim casting a shadow over the water in winter",
-        "w": 1200,
-        "h": 803
       }
     ],
     "western-australia": [
@@ -748,148 +742,10 @@ const SITE_DATA = {
     ],
     "new-images": [
       {
-        "file": "bt-skyler-hughes.webp",
-        "alt": "Broken Top's jagged peaks reflected in an alpine lake at sunset",
-        "w": 1600,
-        "h": 1024
-      },
-      {
-        "file": "jefferson-skyler-hughes.webp",
-        "alt": "Mount Jefferson glowing red in alpenglow above a wildflower meadow",
-        "w": 1067,
-        "h": 1600
-      },
-      {
-        "file": "proxy-skyler-hughes.webp",
-        "alt": "Proxy Falls cascading over moss-covered cliffs in the Oregon Cascades",
-        "w": 1600,
-        "h": 1067
-      },
-      {
-        "file": "smith-rock-skyler-hughes.webp",
-        "alt": "Smith Rock's sunlit spire rising above a snowy canyon with the moon overhead",
-        "w": 1067,
-        "h": 1600
-      },
-      {
-        "file": "silver-falls-state-park-skyler-hughes-15677859.webp",
-        "alt": "Twin cascades merging into a pool beneath golden autumn trees at Silver Falls",
-        "w": 1600,
-        "h": 1067
-      },
-      {
-        "file": "tfj-skyler-hughes.webp",
-        "alt": "Three Fingered Jack's jagged peak above a lupine wildflower meadow",
-        "w": 1600,
-        "h": 1061
-      },
-      {
-        "file": "bachelor-skyler-hughes.webp",
-        "alt": "Mount Bachelor rising above a lily pad-covered wetland in summer",
-        "w": 1030,
-        "h": 1600
-      },
-      {
-        "file": "fall-creek-falls-skyler-hughes-15678114.jpg",
-        "alt": "Fall Creek Falls cascading past snow-dusted boulders in a winter forest",
-        "w": 960,
-        "h": 1440
-      },
-      {
-        "file": "three-sisters-skyler-hughes.webp",
-        "alt": "The Three Sisters glowing pink at dusk above a snow-covered forest",
-        "w": 1600,
-        "h": 1021
-      },
-      {
-        "file": "jefferson2-skyler-hughes.webp",
-        "alt": "Mount Jefferson framed through a rock arch at sunset",
-        "w": 1600,
-        "h": 1069
-      },
-      {
         "file": "lava-lake-fishing.webp",
         "alt": "Two anglers fishing from a boat on a misty lake at sunrise",
         "w": 1600,
         "h": 1519
-      },
-      {
-        "file": "slc-skyler-hughes.webp",
-        "alt": "Salt Creek Falls framed by snow-laden pines in the Oregon Cascades",
-        "w": 1600,
-        "h": 1034
-      },
-      {
-        "file": "south-sister-summit-sunrise-skyler-hughes.webp",
-        "alt": "Snow-patched Cascade peaks viewed from South Sister's summit at sunrise",
-        "w": 1200,
-        "h": 719
-      },
-      {
-        "file": "mt-bachelor-skyler-hughes.webp",
-        "alt": "Snow-capped Mount Bachelor rising above snow-laden pine trees",
-        "w": 1055,
-        "h": 1600
-      },
-      {
-        "file": "south-sister-skyler-hughes.webp",
-        "alt": "South Sister volcano reflected in Sparks Lake at dusk",
-        "w": 1600,
-        "h": 1067
-      },
-      {
-        "file": "sparks-lake-skyler-hughes.webp",
-        "alt": "Sparks Lake ablaze with reflected color under a dramatic sunset sky",
-        "w": 1037,
-        "h": 1600
-      },
-      {
-        "file": "smith-falls-skyler-hughes.webp",
-        "alt": "Smith Falls cascading through an autumn-colored forest gorge",
-        "w": 1600,
-        "h": 1067
-      },
-      {
-        "file": "koosah-skyler-hughes-15677860.webp",
-        "alt": "Koosah Falls with golden sunlight streaming through the forest canopy",
-        "w": 1600,
-        "h": 1067
-      },
-      {
-        "file": "sparks-kayak-skyler-hughes.webp",
-        "alt": "Kayakers paddling Sparks Lake beneath fiery clouds and snow-capped peaks at sunset",
-        "w": 1600,
-        "h": 1067
-      },
-      {
-        "file": "mt-washington-fire-skyler-hughes.webp",
-        "alt": "Wildfire glow lighting up hillsides below Mount Washington at night",
-        "w": 1440,
-        "h": 960
-      },
-      {
-        "file": "palouse-skyler-hughes.webp",
-        "alt": "Palouse Falls plunging into a basalt canyon under dramatic clouds",
-        "w": 1440,
-        "h": 941
-      },
-      {
-        "file": "benham-skyler-hughes.webp",
-        "alt": "Benham Falls' turquoise water rushing through a snow-covered forest canyon",
-        "w": 1440,
-        "h": 960
-      },
-      {
-        "file": "three-sisters-aerial-skyler-hughes.webp",
-        "alt": "Aerial winter view of the Three Sisters and Broken Top with Mount Hood on the horizon",
-        "w": 1600,
-        "h": 1043
-      },
-      {
-        "file": "oregon-coast-falls-skyler-hughes-min.webp",
-        "alt": "Two-tier waterfall dropping through a mossy, fall-leaf-covered Oregon forest",
-        "w": 1440,
-        "h": 960
       },
       {
         "file": "Snow-creek-falls-horizontal-Nov-2022-sharpened.webp",

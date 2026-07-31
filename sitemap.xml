@@ -352,10 +352,6 @@
       <image:loc>https://skylerhughesphotography.com/images/bt-winter-skyler-hughes.webp</image:loc>
       <image:caption>Broken Top's snowy peaks catching alpenglow above a frozen creek</image:caption>
     </image:image>
-    <image:image>
-      <image:loc>https://skylerhughesphotography.com/images/crater-lake-winter-skyler-hughes.webp</image:loc>
-      <image:caption>Crater Lake's snow-covered rim casting a shadow over the water in winter</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://skylerhughesphotography.com/western-australia/</loc>
@@ -497,100 +493,8 @@
     <loc>https://skylerhughesphotography.com/new-images/</loc>
     <lastmod>2026-07-30</lastmod>
     <image:image>
-      <image:loc>https://skylerhughesphotography.com/images/bt-skyler-hughes.webp</image:loc>
-      <image:caption>Broken Top's jagged peaks reflected in an alpine lake at sunset</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://skylerhughesphotography.com/images/jefferson-skyler-hughes.webp</image:loc>
-      <image:caption>Mount Jefferson glowing red in alpenglow above a wildflower meadow</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://skylerhughesphotography.com/images/proxy-skyler-hughes.webp</image:loc>
-      <image:caption>Proxy Falls cascading over moss-covered cliffs in the Oregon Cascades</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://skylerhughesphotography.com/images/smith-rock-skyler-hughes.webp</image:loc>
-      <image:caption>Smith Rock's sunlit spire rising above a snowy canyon with the moon overhead</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://skylerhughesphotography.com/images/silver-falls-state-park-skyler-hughes-15677859.webp</image:loc>
-      <image:caption>Twin cascades merging into a pool beneath golden autumn trees at Silver Falls</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://skylerhughesphotography.com/images/tfj-skyler-hughes.webp</image:loc>
-      <image:caption>Three Fingered Jack's jagged peak above a lupine wildflower meadow</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://skylerhughesphotography.com/images/bachelor-skyler-hughes.webp</image:loc>
-      <image:caption>Mount Bachelor rising above a lily pad-covered wetland in summer</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://skylerhughesphotography.com/images/fall-creek-falls-skyler-hughes-15678114.jpg</image:loc>
-      <image:caption>Fall Creek Falls cascading past snow-dusted boulders in a winter forest</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://skylerhughesphotography.com/images/three-sisters-skyler-hughes.webp</image:loc>
-      <image:caption>The Three Sisters glowing pink at dusk above a snow-covered forest</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://skylerhughesphotography.com/images/jefferson2-skyler-hughes.webp</image:loc>
-      <image:caption>Mount Jefferson framed through a rock arch at sunset</image:caption>
-    </image:image>
-    <image:image>
       <image:loc>https://skylerhughesphotography.com/images/lava-lake-fishing.webp</image:loc>
       <image:caption>Two anglers fishing from a boat on a misty lake at sunrise</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://skylerhughesphotography.com/images/slc-skyler-hughes.webp</image:loc>
-      <image:caption>Salt Creek Falls framed by snow-laden pines in the Oregon Cascades</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://skylerhughesphotography.com/images/south-sister-summit-sunrise-skyler-hughes.webp</image:loc>
-      <image:caption>Snow-patched Cascade peaks viewed from South Sister's summit at sunrise</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://skylerhughesphotography.com/images/mt-bachelor-skyler-hughes.webp</image:loc>
-      <image:caption>Snow-capped Mount Bachelor rising above snow-laden pine trees</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://skylerhughesphotography.com/images/south-sister-skyler-hughes.webp</image:loc>
-      <image:caption>South Sister volcano reflected in Sparks Lake at dusk</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://skylerhughesphotography.com/images/sparks-lake-skyler-hughes.webp</image:loc>
-      <image:caption>Sparks Lake ablaze with reflected color under a dramatic sunset sky</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://skylerhughesphotography.com/images/smith-falls-skyler-hughes.webp</image:loc>
-      <image:caption>Smith Falls cascading through an autumn-colored forest gorge</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://skylerhughesphotography.com/images/koosah-skyler-hughes-15677860.webp</image:loc>
-      <image:caption>Koosah Falls with golden sunlight streaming through the forest canopy</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://skylerhughesphotography.com/images/sparks-kayak-skyler-hughes.webp</image:loc>
-      <image:caption>Kayakers paddling Sparks Lake beneath fiery clouds and snow-capped peaks at sunset</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://skylerhughesphotography.com/images/mt-washington-fire-skyler-hughes.webp</image:loc>
-      <image:caption>Wildfire glow lighting up hillsides below Mount Washington at night</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://skylerhughesphotography.com/images/palouse-skyler-hughes.webp</image:loc>
-      <image:caption>Palouse Falls plunging into a basalt canyon under dramatic clouds</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://skylerhughesphotography.com/images/benham-skyler-hughes.webp</image:loc>
-      <image:caption>Benham Falls' turquoise water rushing through a snow-covered forest canyon</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://skylerhughesphotography.com/images/three-sisters-aerial-skyler-hughes.webp</image:loc>
-      <image:caption>Aerial winter view of the Three Sisters and Broken Top with Mount Hood on the horizon</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://skylerhughesphotography.com/images/oregon-coast-falls-skyler-hughes-min.webp</image:loc>
-      <image:caption>Two-tier waterfall dropping through a mossy, fall-leaf-covered Oregon forest</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://skylerhughesphotography.com/images/Snow-creek-falls-horizontal-Nov-2022-sharpened.webp</image:loc>
