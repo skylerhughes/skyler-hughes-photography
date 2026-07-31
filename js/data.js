@@ -632,6 +632,12 @@ const SITE_DATA = {
     ],
     "lifestyle": [
       {
+        "file": "bobby-middle-sister-tour-skyler-hughes.webp",
+        "alt": "Ski tourer pausing to admire Middle Sister's cloud-wrapped summit",
+        "w": 1600,
+        "h": 1046
+      },
+      {
         "file": "alaska-group-tour-skyler-hughes.webp",
         "alt": "A roped group of ski tourers ascending a sunlit Alaskan snow slope",
         "w": 1600,
@@ -732,12 +738,6 @@ const SITE_DATA = {
         "alt": "Climber scaling a rock face in the Smith Rock gorge",
         "w": 1200,
         "h": 800
-      },
-      {
-        "file": "bobby-middle-sister-tour-skyler-hughes.webp",
-        "alt": "Ski tourer pausing to admire Middle Sister's cloud-wrapped summit",
-        "w": 1600,
-        "h": 1046
       }
     ],
     "new-images": [
