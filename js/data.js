@@ -328,6 +328,18 @@ const SITE_DATA = {
         "alt": "Butte Creek Falls cascading through a canopy of autumn color",
         "w": 1200,
         "h": 800
+      },
+      {
+        "file": "japanese-gardens-portland-fall-skyler-hughes.webp",
+        "alt": "A gnarled, moss-covered Japanese maple in fall color above a garden pond in Portland",
+        "w": 1600,
+        "h": 1019
+      },
+      {
+        "file": "two-owls-skyler-hughes.webp",
+        "alt": "Two spotted owls perched on a moss-covered branch in the forest",
+        "w": 1067,
+        "h": 1600
       }
     ],
     "southwest": [
