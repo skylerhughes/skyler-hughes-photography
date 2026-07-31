@@ -748,12 +748,6 @@ const SITE_DATA = {
         "h": 1519
       },
       {
-        "file": "Snow-creek-falls-horizontal-Nov-2022-sharpened.webp",
-        "alt": "Snow Creek Falls flowing past ice-crusted rocks in a snowy forest",
-        "w": 1500,
-        "h": 1000
-      },
-      {
         "file": "abstract-skyler-hughes.webp",
         "alt": "Abstract aerial view of turquoise water and dark reef patterns",
         "w": 1200,
@@ -808,12 +802,6 @@ const SITE_DATA = {
         "h": 1200
       },
       {
-        "file": "snow-creek-details-Nov-2022-sharpened.webp",
-        "alt": "Snow-capped boulders in a rushing winter stream",
-        "w": 2500,
-        "h": 1667
-      },
-      {
         "file": "spotted-owl-july-18-2.webp",
         "alt": "Spotted owl perched on a moss-covered branch in a forest",
         "w": 1200,
@@ -824,12 +812,6 @@ const SITE_DATA = {
         "alt": "Golden light on pine trees reflected in a misty Canadian Rockies lake",
         "w": 1200,
         "h": 784
-      },
-      {
-        "file": "upper-north-falls-silver-falls-state-park-skyler-hughes.webp",
-        "alt": "Upper North Falls plunging over a cliff into a rocky pool at Silver Falls State Park",
-        "w": 1200,
-        "h": 797
       }
     ]
   },
