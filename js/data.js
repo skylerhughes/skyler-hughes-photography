@@ -130,18 +130,6 @@ const SITE_DATA = {
         "h": 719
       },
       {
-        "file": "jefferson-skyler-hughes.webp",
-        "alt": "Mount Jefferson glowing red in alpenglow above a wildflower meadow",
-        "w": 1067,
-        "h": 1600
-      },
-      {
-        "file": "proxy-skyler-hughes.webp",
-        "alt": "Proxy Falls cascading over moss-covered cliffs in the Oregon Cascades",
-        "w": 1600,
-        "h": 1067
-      },
-      {
         "file": "smith-rock-skyler-hughes.webp",
         "alt": "Smith Rock's sunlit spire rising above a snowy canyon with the moon overhead",
         "w": 1067,
@@ -178,12 +166,6 @@ const SITE_DATA = {
         "h": 1069
       },
       {
-        "file": "slc-skyler-hughes.webp",
-        "alt": "Salt Creek Falls framed by snow-laden pines in the Oregon Cascades",
-        "w": 1600,
-        "h": 1034
-      },
-      {
         "file": "mt-bachelor-skyler-hughes.webp",
         "alt": "Snow-capped Mount Bachelor rising above snow-laden pine trees",
         "w": 1055,
@@ -206,12 +188,6 @@ const SITE_DATA = {
         "alt": "Sparks Lake ablaze with reflected color under a dramatic sunset sky",
         "w": 1037,
         "h": 1600
-      },
-      {
-        "file": "koosah-skyler-hughes-15677860.webp",
-        "alt": "Koosah Falls with golden sunlight streaming through the forest canopy",
-        "w": 1600,
-        "h": 1067
       },
       {
         "file": "sparks-kayak-skyler-hughes.webp",
@@ -270,22 +246,10 @@ const SITE_DATA = {
         "h": 1067
       },
       {
-        "file": "tfj-skyler-hughes.webp",
-        "alt": "Three Fingered Jack's jagged peak above a lupine wildflower meadow",
-        "w": 1600,
-        "h": 1061
-      },
-      {
         "file": "fall-creek-falls-skyler-hughes-15678114.jpg",
         "alt": "Fall Creek Falls cascading past snow-dusted boulders in a winter forest",
         "w": 960,
         "h": 1440
-      },
-      {
-        "file": "three-sisters-skyler-hughes.webp",
-        "alt": "The Three Sisters glowing pink at dusk above a snow-covered forest",
-        "w": 1600,
-        "h": 1021
       },
       {
         "file": "jefferson2-skyler-hughes.webp",
@@ -300,46 +264,16 @@ const SITE_DATA = {
         "h": 1200
       },
       {
-        "file": "slc-skyler-hughes.webp",
-        "alt": "Salt Creek Falls framed by snow-laden pines in the Oregon Cascades",
-        "w": 1600,
-        "h": 1034
-      },
-      {
-        "file": "mt-bachelor-skyler-hughes.webp",
-        "alt": "Snow-capped Mount Bachelor rising above snow-laden pine trees",
-        "w": 1055,
-        "h": 1600
-      },
-      {
         "file": "punchbowl-gorgo-skyler-hughes.webp",
         "alt": "Punch Bowl Falls flowing into a lush green pool in the Columbia River Gorge",
         "w": 1200,
         "h": 788
       },
       {
-        "file": "south-sister-skyler-hughes.webp",
-        "alt": "South Sister volcano reflected in Sparks Lake at dusk",
-        "w": 1600,
-        "h": 1067
-      },
-      {
         "file": "smith-falls-skyler-hughes.webp",
         "alt": "Smith Falls cascading through an autumn-colored forest gorge",
         "w": 1600,
         "h": 1067
-      },
-      {
-        "file": "koosah-skyler-hughes-15677860.webp",
-        "alt": "Koosah Falls with golden sunlight streaming through the forest canopy",
-        "w": 1600,
-        "h": 1067
-      },
-      {
-        "file": "mt-washington-fire-skyler-hughes.webp",
-        "alt": "Wildfire glow lighting up hillsides below Mount Washington at night",
-        "w": 1440,
-        "h": 960
       },
       {
         "file": "oneonta-gorge-skyler-hughes.webp",
@@ -354,22 +288,10 @@ const SITE_DATA = {
         "h": 941
       },
       {
-        "file": "benham-skyler-hughes.webp",
-        "alt": "Benham Falls' turquoise water rushing through a snow-covered forest canyon",
-        "w": 1440,
-        "h": 960
-      },
-      {
         "file": "oregon-coast-falls-skyler-hughes-min.webp",
         "alt": "Two-tier waterfall dropping through a mossy, fall-leaf-covered Oregon forest",
         "w": 1440,
         "h": 960
-      },
-      {
-        "file": "sparks-lake-skyler-hughes.webp",
-        "alt": "Sparks Lake ablaze with reflected color under a dramatic sunset sky",
-        "w": 1037,
-        "h": 1600
       },
       {
         "file": "sweet-creek-autumn-skyler-hughes.webp",
