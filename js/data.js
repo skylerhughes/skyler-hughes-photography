@@ -1586,6 +1586,368 @@ const SITE_DATA = {
           ]
         }
       ]
+    },
+    {
+      "slug": "wonderland-trail",
+      "title": "Wonderland Trail",
+      "date": "2026-08-04",
+      "cover": "wonderland-trail/wt-day5-02.webp",
+      "excerpt": "Seven days circling Mount Rainier on the Wonderland Trail - a clockwise loop starting and ending in Longmire.",
+      "paragraphs": [
+        "This post is almost a year overdue. Leilah and I hiked the Wonderland Trail around Mount Rainier last August, and with the one year mark coming up, it felt like the right time to finally share it.",
+        "The Wonderland Trail is a roughly 93-mile loop that circles Mount Rainier almost entirely within the national park. We hiked it clockwise out of Longmire, camping at Klapatche Park, Golden Lakes, Eagle Roost, Dick Creek, White River, and Maple Creek along the way.",
+        "Day one we had steady rain that soaked through nearly everything, and it took a couple of days on trail before our gear fully dried back out.",
+        "From there the weather turned, and the trail delivered some of the best alpine scenery we have hiked. Endless meadows, marmots, and Rainier looming overhead nearly the entire way. Here is how our week on the Wonderland Trail broke down."
+      ],
+      "days": [
+        {
+          "title": "Day 1: Longmire to Klapatche Park",
+          "text": "A wet start out of Longmire through old-growth forest to Klapatche Park -- it rained on us most of the day.",
+          "photos": [
+            {
+              "file": "wonderland-trail/wt-day1-01.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day1-02.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day1-05.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day1-06.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day1-07.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day1-08.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day1-09.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day1-10.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day1-11.webp",
+              "w": 1200,
+              "h": 1600
+            }
+          ]
+        },
+        {
+          "title": "Day 2: Klapatche Park to Golden Lakes",
+          "text": "Drying out gear from camp before pushing on from Klapatche Park to Golden Lakes.",
+          "photos": [
+            {
+              "file": "wonderland-trail/wt-day2-01.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day2-02.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day2-03.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day2-04.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day2-05.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day2-06.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day2-07.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day2-08.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day2-09.webp",
+              "w": 1200,
+              "h": 1600
+            }
+          ]
+        },
+        {
+          "title": "Day 3: Golden Lakes to Eagle Roost",
+          "text": "A fast-moving day from Golden Lakes to Eagle Roost, crossing a big glacial river along the way.",
+          "photos": [
+            {
+              "file": "wonderland-trail/wt-day3-01.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day3-03.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day3-04.webp",
+              "w": 1200,
+              "h": 1600
+            }
+          ]
+        },
+        {
+          "title": "Day 4: Eagle Roost to Dick Creek",
+          "text": "In and out of the clouds from Eagle Roost to Dick Creek, including a highlight suspension bridge crossing.",
+          "photos": [
+            {
+              "file": "wonderland-trail/wt-day4-01.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day4-02.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day4-03.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day4-04.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day4-05.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day4-06.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day4-07.webp",
+              "w": 1600,
+              "h": 695
+            },
+            {
+              "file": "wonderland-trail/wt-day4-08.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day4-09.webp",
+              "w": 1200,
+              "h": 1600
+            }
+          ]
+        },
+        {
+          "title": "Day 5: Dick Creek to White River",
+          "text": "The skies finally cleared between Dick Creek and White River, with Rainier in view most of the day.",
+          "photos": [
+            {
+              "file": "wonderland-trail/wt-day5-01.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day5-02.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day5-03.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day5-04.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day5-05.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day5-06.webp",
+              "w": 1200,
+              "h": 1600
+            }
+          ]
+        },
+        {
+          "title": "Day 6: White River to Maple Creek",
+          "text": "The best day of the trip -- alpine meadows, marmots, and tarns all the way to Maple Creek.",
+          "photos": [
+            {
+              "file": "wonderland-trail/wt-day6-01.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day6-02.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day6-03.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day6-04.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day6-05.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day6-06.webp",
+              "w": 1600,
+              "h": 710
+            },
+            {
+              "file": "wonderland-trail/wt-day6-07.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day6-08.webp",
+              "w": 1600,
+              "h": 1017
+            },
+            {
+              "file": "wonderland-trail/wt-day6-09.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day6-10.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day6-11.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day6-12.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day6-13.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day6-14.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day6-15.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day6-16.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day6-17.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day6-18.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day6-19.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day6-20.webp",
+              "w": 1200,
+              "h": 1600
+            }
+          ]
+        },
+        {
+          "title": "Day 7: Maple Creek to Longmire",
+          "text": "Closing the loop from Maple Creek back to Longmire, right where we started.",
+          "photos": [
+            {
+              "file": "wonderland-trail/wt-day7-01.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day7-02.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day7-03.webp",
+              "w": 1200,
+              "h": 1600
+            },
+            {
+              "file": "wonderland-trail/wt-day7-04.webp",
+              "w": 1600,
+              "h": 1200
+            },
+            {
+              "file": "wonderland-trail/wt-day7-05.webp",
+              "w": 1200,
+              "h": 1600
+            }
+          ]
+        }
+      ]
     }
   ]
 };
