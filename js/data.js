@@ -1592,7 +1592,7 @@ const SITE_DATA = {
       "title": "Wonderland Trail",
       "date": "2026-08-04",
       "cover": "wonderland-trail/wt-day5-02.webp",
-      "excerpt": "Seven days circling Mount Rainier on the Wonderland Trail - a clockwise loop starting and ending in Longmire.",
+      "excerpt": "Seven days circling Mount Rainier on the Wonderland Trail. A clockwise loop starting and ending in Longmire.",
       "paragraphs": [
         "This post is almost a year overdue. Leilah and I hiked the Wonderland Trail around Mount Rainier last August, and with the one year mark coming up, it felt like the right time to finally share it.",
         "The Wonderland Trail is a roughly 93-mile loop that circles Mount Rainier almost entirely within the national park. We hiked it clockwise out of Longmire, camping at Klapatche Park, Golden Lakes, Eagle Roost, Dick Creek, White River, and Maple Creek along the way.",
@@ -1602,8 +1602,13 @@ const SITE_DATA = {
       "days": [
         {
           "title": "Day 1: Longmire to Klapatche Park",
-          "text": "A wet start out of Longmire through old-growth forest to Klapatche Park -- it rained on us most of the day.",
+          "text": "A wet start out of Longmire through old-growth forest to Klapatche Park. It rained on us most of the day.",
           "photos": [
+            {
+              "file": "wonderland-trail/wt-day1-09.webp",
+              "w": 1200,
+              "h": 1600
+            },
             {
               "file": "wonderland-trail/wt-day1-01.webp",
               "w": 1200,
@@ -1631,11 +1636,6 @@ const SITE_DATA = {
             },
             {
               "file": "wonderland-trail/wt-day1-08.webp",
-              "w": 1200,
-              "h": 1600
-            },
-            {
-              "file": "wonderland-trail/wt-day1-09.webp",
               "w": 1200,
               "h": 1600
             },
@@ -1812,7 +1812,7 @@ const SITE_DATA = {
         },
         {
           "title": "Day 6: White River to Maple Creek",
-          "text": "The best day of the trip -- alpine meadows, marmots, and tarns all the way to Maple Creek.",
+          "text": "The best day of the trip. Alpine meadows, marmots, and tarns all the way to Maple Creek.",
           "photos": [
             {
               "file": "wonderland-trail/wt-day6-01.webp",

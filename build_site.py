@@ -217,7 +217,7 @@ def render_blog_index(posts, depth):
     if not posts:
         return (
             '<h1 class="page-title">Blog</h1>\n'
-            '  <div class="home-intro"><p>No posts yet -- check back soon.</p></div>'
+            '  <div class="home-intro"><p>No posts yet. Check back soon.</p></div>'
         )
 
     item_htmls = []
@@ -262,7 +262,7 @@ def render_day_section(day, depth):
     hero_html = ""
     if hero:
         hero_html = render_image(
-            hero["file"], hero.get("alt") or "{} -- photo {}".format(day["title"], hero_idx + 1),
+            hero["file"], hero.get("alt") or "{}, photo {}".format(day["title"], hero_idx + 1),
             hero.get("w"), hero.get("h"), depth, css_class="day-hero",
         ) + "\n      "
 
@@ -271,7 +271,7 @@ def render_day_section(day, depth):
         photos_html = "\n        ".join(
             render_image(
                 p["file"],
-                p.get("alt") or "{} -- photo {}".format(day["title"], orig_i + 1),
+                p.get("alt") or "{}, photo {}".format(day["title"], orig_i + 1),
                 p.get("w"), p.get("h"), depth,
             )
             for orig_i, p in rest
