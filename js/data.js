@@ -1643,11 +1643,6 @@ const SITE_DATA = {
               "file": "wonderland-trail/wt-day1-10.webp",
               "w": 1200,
               "h": 1600
-            },
-            {
-              "file": "wonderland-trail/wt-day1-11.webp",
-              "w": 1200,
-              "h": 1600
             }
           ]
         },
@@ -1794,11 +1789,6 @@ const SITE_DATA = {
               "h": 1600
             },
             {
-              "file": "wonderland-trail/wt-day5-04.webp",
-              "w": 1200,
-              "h": 1600
-            },
-            {
               "file": "wonderland-trail/wt-day5-05.webp",
               "w": 1200,
               "h": 1600
@@ -1922,11 +1912,6 @@ const SITE_DATA = {
           "photos": [
             {
               "file": "wonderland-trail/wt-day7-01.webp",
-              "w": 1200,
-              "h": 1600
-            },
-            {
-              "file": "wonderland-trail/wt-day7-02.webp",
               "w": 1200,
               "h": 1600
             },

@@ -95,7 +95,7 @@ def render_head(title, description, canonical_slug, og_image_path, depth, struct
 <title>{title}</title>
 <meta name="description" content="{description}">
 <link rel="canonical" href="{canonical_url}">
-<link rel="icon" type="image/svg+xml" href="{asset_prefix}favicon.svg">
+<link rel="icon" type="image/png" href="{asset_prefix}favicon.png">
 <link rel="apple-touch-icon" href="{asset_prefix}apple-touch-icon.png">
 
 <meta property="og:type" content="website">
@@ -448,7 +448,7 @@ def write_404_page(data):
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Page Not Found | Skyler Hughes Photography</title>
 <meta name="robots" content="noindex">
-<link rel="icon" type="image/svg+xml" href="{favicon}">
+<link rel="icon" type="image/png" href="{favicon}">
 <link rel="apple-touch-icon" href="{apple_touch_icon}">
 <link rel="stylesheet" href="{css}">
 </head>
@@ -482,7 +482,7 @@ def write_404_page(data):
 </body>
 </html>
 """.format(
-        favicon=SITE_BASE_URL + "favicon.svg",
+        favicon=SITE_BASE_URL + "favicon.png",
         apple_touch_icon=SITE_BASE_URL + "apple-touch-icon.png",
         css=SITE_BASE_URL + "css/style.css",
         nav=nav_html,
