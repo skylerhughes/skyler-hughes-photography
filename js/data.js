@@ -1938,7 +1938,7 @@ const SITE_DATA = {
       "slug": "barred-owls",
       "title": "Barred Owls",
       "date": "2026-11-06",
-      "cover": "barred-owls/barred-owl-in-july-oregon.webp",
+      "cover": "barred-owls/barred-owl-sleepy.webp",
       "excerpt": "A few years of barred owls in our yard, photographed through the spring and summer.",
       "paragraphs": [
         "For the past few years I’ve been photographing the barred owls that visit our yard in the spring and summer. They are loud at night, and their many different hoots and screeches often wake us up. Most of the time there are two, but on one special day there were four.",
