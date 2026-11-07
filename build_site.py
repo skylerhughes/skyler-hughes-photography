@@ -252,6 +252,24 @@ def render_blog_index(posts, depth):
 
 def render_day_section(day, depth):
     photos = day.get("photos", [])
+    if day.get("full"):
+        # Every photo full width at its natural aspect ratio, no square grid.
+        photos_html = "\n      ".join(
+            render_image(
+                p["file"], p.get("alt") or "{}, photo {}".format(day["title"], i + 1),
+                p.get("w"), p.get("h"), depth, css_class="day-hero",
+            )
+            for i, p in enumerate(photos)
+        )
+        text_html = "<p>{}</p>\n      ".format(html_escape(day["text"])) if day.get("text") else ""
+        return (
+            '<div class="day-section day-section--full">\n'
+            "      <h2>{title}</h2>\n"
+            "      {text}"
+            "{photos}\n"
+            "    </div>"
+        ).format(title=html_escape(day["title"]), text=text_html, photos=photos_html)
+
     hero_idx = next(
         (i for i, p in enumerate(photos) if p.get("w") and p.get("h") and p["w"] >= p["h"]),
         0 if photos else None,

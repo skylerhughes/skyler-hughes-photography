@@ -1933,6 +1933,62 @@ const SITE_DATA = {
           ]
         }
       ]
+    },
+    {
+      "slug": "barred-owls",
+      "title": "Barred Owls",
+      "date": "2026-11-06",
+      "cover": "barred-owls/barred-owl-in-july-oregon.webp",
+      "excerpt": "A few years of barred owls in our yard, photographed through the spring and summer.",
+      "paragraphs": [
+        "Over the past few years I have been photographing the barred owls that live around our yard. They show up most often in the spring and summer, perched in the mossy branches or watching from the fence line.",
+        "At one point I watched four of them at once, calling back and forth and flying between the trees. Here are a few of my favorite shots so far."
+      ],
+      "days": [
+        {
+          "title": "From the Yard",
+          "text": "Spring and summer sightings in Oregon.",
+          "photos": [
+            {
+              "file": "barred-owls/barred-owl-in-july-oregon.webp",
+              "w": 1600,
+              "h": 1067,
+              "alt": "A barred owl perched on a moss-covered branch in a green Oregon forest in July"
+            },
+            {
+              "file": "barred-owls/two-barred-owls.webp",
+              "w": 1067,
+              "h": 1600,
+              "alt": "Two barred owls sitting on mossy branches, one above the other"
+            },
+            {
+              "file": "barred-owls/barred-owl-close-up.webp",
+              "w": 1067,
+              "h": 1600,
+              "alt": "Close-up of a barred owl looking down from a mossy branch"
+            },
+            {
+              "file": "barred-owls/barred-owl-starring.webp",
+              "w": 1067,
+              "h": 1600,
+              "alt": "A barred owl staring straight into the camera from a branch"
+            },
+            {
+              "file": "barred-owls/barred-owl-sleepy.webp",
+              "w": 1600,
+              "h": 1103,
+              "alt": "A sleepy barred owl with half-closed eyes perched among green leaves"
+            },
+            {
+              "file": "barred-owls/barred-owl-on-roof.webp",
+              "w": 1600,
+              "h": 1124,
+              "alt": "A barred owl perched on the edge of a roof in soft morning light"
+            }
+          ],
+          "full": true
+        }
+      ]
     }
   ]
 };
